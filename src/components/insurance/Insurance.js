@@ -1,6 +1,8 @@
 import React from 'react'
 import './InsuranceStyles.css'
 import Fade from 'react-reveal/Fade';
+import { Link } from 'react-router-dom';
+
 
 
 const Insurance = () => {
@@ -16,7 +18,10 @@ const Insurance = () => {
                     <Fade right>
                     <p>If you don’t see your insurance provider below, please reach out to us to find a way to assist you further.</p>
                     </Fade>
+
+                    <Link to="/contact">
                     <div><button>Contact Us</button></div>
+                    </Link>
                 </div>
             </div>
         </div>
