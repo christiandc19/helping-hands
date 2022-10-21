@@ -1,9 +1,11 @@
 import React from 'react'
 import './MissionSectionStyles.css'
 import Fade from 'react-reveal/Fade';
+import {Link} from 'react-router-dom'
+import { Link as LinkRoll } from 'react-scroll'
 
 
-import Therapy from '../../assets/therapy2.jpg'
+import Therapy from '../../assets/therapy.jpg'
 import Staff from '../../assets/staff.jpg'
 import Clinic from '../../assets/clinic.jpg'
 import Work from '../../assets/employment-assistance2.png'
@@ -52,9 +54,16 @@ const MissionSection = () => {
                         <img src= { Work } alt="Cigna Logo" loading="lazy" /> 
                         <p>There are a variety of programs and organizations that fall under the umbrella of employment-based recovery support services.</p>  
                     </div>
-                    </Fade>                            
-                    
+                    </Fade>                          
+
                     </div>
+                    <div>
+                    <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
+                        <Link to="/contact">
+                            <button>Contact Us</button>
+                        </Link>
+                    </LinkRoll>
+                </div>
                 </div>
             </div>
         </div>

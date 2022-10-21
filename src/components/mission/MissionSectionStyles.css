@@ -49,6 +49,10 @@
     width: 220px;
 }
 
+.mission-section button {
+    margin: auto;
+}
+
 @media screen and (max-width: 940px) {
     .mission-section .content {
         left: 0;
@@ -58,11 +62,12 @@
     }
 
     .mission-section {
-        height: 80vh;
+        height: 140vh;
     }
 
     .mission-section h2 {
         font-size: 25px;
+        margin-top: -3rem;
     }
 
     .mission-section p {

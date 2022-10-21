@@ -1,7 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import { BsFillArrowUpCircleFill } from 'react-icons/bs'
-import logo from '../../assets/logo.png'
+import logo from '../../assets/logo-wh.png'
 import { FiMail, FiFacebook, FiGithub, FiInstagram, FiLinkedin, FiDribbble } from 'react-icons/fi'
 import './FooterStyles.css'
 
@@ -89,6 +89,7 @@ const Footer = () => {
                         </div>
                     </form>
                 </div>
+                <div><p>All Rights Reserved 2022 © Helping Hands Inc.</p></div>
             </div>
         </div>
     )

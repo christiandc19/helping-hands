@@ -3,7 +3,7 @@
     height: 120px;
     position: absolute;
     z-index: 10;
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.4);
 }
 
 .navbar .container {

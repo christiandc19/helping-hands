@@ -27,7 +27,7 @@ const TestimonialsSection = () => {
                                         <img src={ Rachel2 } alt="Rachel" loading='lazy'/>
                                         {/* <img src= { Therapy } alt="Aetna Logo" loading="lazy" />                     */}
                                         <p>"Love this place. My counselors are the best! Great meetings, great help, great people! Helps you get to where you want to be in life"</p>
-                                        <p>- Rachel Green</p>
+                                        <p>- Rachel</p>
                                     </div>
                                 </div>
                             </Fade>
@@ -36,15 +36,15 @@ const TestimonialsSection = () => {
                                 <div className='thumbnail-container'>
                                     <img src= { Ross } alt="Beacon Logo" loading="lazy" /> 
                                     <p>"I had been to outpatients in the past where there was little addiction expertise, but at Helping Hands, I found staff that were truly invested in helping me get sober and restore my mental health."</p>
-                                    <p>- Ross Geller</p>
+                                    <p>- Ross</p>
                                 </div>
                             </Fade>
 
                             <Fade top>
                                 <div className='thumbnail-container'>
                                     <img src= { Joey } alt="Bluecross Logo" loading="lazy" />   
-                                    <p>Evidence-based practices that give you the best chance of recovery</p>
-                                    <p>- Ross Geller</p>
+                                    <p>Help me sort out a lot of the chaos going on in my life and helped me lay a good foundation for what I want my life to look like.</p>
+                                    <p>- Joey</p>
                                 </div>
                             </Fade>
 
@@ -52,15 +52,15 @@ const TestimonialsSection = () => {
                                 <div className='thumbnail-container'>
                                     <img src= { Monica } alt="Cigna Logo" loading="lazy" /> 
                                     <p>There are a variety of programs and organizations that fall under the umbrella of employment-based recovery support services.</p>  
-                                    <p>- Ross Geller</p>
+                                    <p>- Monica</p>
                                 </div>
                             </Fade>                            
                     
                             <Fade top>
                                 <div className='thumbnail-container'>
                                     <img src= { Chandler } alt="Bluecross Logo" loading="lazy" />   
-                                    <p>Evidence-based practices that give you the best chance of recovery</p>
-                                    <p>- Ross Geller</p>
+                                    <p>The staff is great. They really want you to succeed and will go above and beyond for you. </p>
+                                    <p>- Chandler</p>
                                 </div>
                             </Fade>
 

@@ -29,10 +29,6 @@
     width: 100%;
 }
 
-.service-2 {
-    text-align: center;
-    margin: 2rem
-}
 
 .treatment:before {
     content: '';
@@ -51,15 +47,19 @@
     padding: 1rem;
 }
 
-.treatment h2 {
+.treatment h2, .treatment-header1 {
     font-family: 'Viga', sans-serif;
-    color: #f8f8f8;
+    color: var(--primary-color);
 }
 
 .treatment p {
     color: #f8f8f8;
     margin: 1rem 0;
     text-align: justify;
+}
+
+.treatment-header1 {
+    margin-top: 2rem;
 }
 
 @media screen and (max-width:940px) {
@@ -90,6 +90,10 @@
         color: #f8f8f8;
         margin: 1rem 0;
         text-align: justify;
+    }
+
+    .revisions, .recreation {
+        margin-top: -5rem;
     }
 
 }

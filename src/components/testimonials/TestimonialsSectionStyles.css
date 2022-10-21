@@ -27,6 +27,7 @@
 
 .testimonials-section .content p {
     margin: 1rem 0;
+    
 }
 
 .flex-right {
@@ -62,6 +63,7 @@
         left: 0;
         width: 100%;
         padding: 1rem;
+        margin-top: -4rem;
         /* background: rgba(255, 255, 255, .7); */
     }
 
