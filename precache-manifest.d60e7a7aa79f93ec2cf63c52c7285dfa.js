@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "a8641fbe06e47533f074",
-    "url": "/helping-hands/static/css/main.0bacc027.chunk.css"
+    "revision": "7cb48114156b023ada64",
+    "url": "/helping-hands/static/css/main.ffd82546.chunk.css"
   },
   {
-    "revision": "a8641fbe06e47533f074",
-    "url": "/helping-hands/static/js/main.a8641fbe.chunk.js"
+    "revision": "7cb48114156b023ada64",
+    "url": "/helping-hands/static/js/main.7cb48114.chunk.js"
   },
   {
     "revision": "0a182845d4fcdd2b8601",
@@ -148,8 +148,8 @@ self.__precacheManifest = [
     "url": "/helping-hands/static/media/footer-bg.824ca03e.jpg"
   },
   {
-    "revision": "36734c69ee39d7ba89e6a1e0c3da6f06",
-    "url": "/helping-hands/static/media/testimonials-bg.36734c69.jpg"
+    "revision": "fa0850761cf49ce69c602900f794e853",
+    "url": "/helping-hands/static/media/testimonials-bg.fa085076.jpg"
   },
   {
     "revision": "3d0c37a61f22c16514426d04b5661b11",
@@ -172,7 +172,7 @@ self.__precacheManifest = [
     "url": "/helping-hands/static/media/contact-bg.a271a999.jpg"
   },
   {
-    "revision": "feae0ed9494a3cbc1ca62f7a01919622",
+    "revision": "fba95fdf71ed789543d339afebbb3050",
     "url": "/helping-hands/index.html"
   }
 ];

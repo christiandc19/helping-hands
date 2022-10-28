@@ -1,7 +1,7 @@
 {
-  "main.css": "/helping-hands/static/css/main.0bacc027.chunk.css",
-  "main.js": "/helping-hands/static/js/main.a8641fbe.chunk.js",
-  "main.js.map": "/helping-hands/static/js/main.a8641fbe.chunk.js.map",
+  "main.css": "/helping-hands/static/css/main.ffd82546.chunk.css",
+  "main.js": "/helping-hands/static/js/main.7cb48114.chunk.js",
+  "main.js.map": "/helping-hands/static/js/main.7cb48114.chunk.js.map",
   "static/js/1.0a182845.chunk.js": "/helping-hands/static/js/1.0a182845.chunk.js",
   "static/js/1.0a182845.chunk.js.map": "/helping-hands/static/js/1.0a182845.chunk.js.map",
   "runtime~main.js": "/helping-hands/static/js/runtime~main.f537a41a.js",
@@ -39,14 +39,14 @@
   "static/media/monica.jpg": "/helping-hands/static/media/monica.6fea533b.jpg",
   "static/media/chandler.jpg": "/helping-hands/static/media/chandler.acfc4e17.jpg",
   "static/media/FooterStyles.css": "/helping-hands/static/media/footer-bg.824ca03e.jpg",
-  "static/media/TestimonialsStyles.css": "/helping-hands/static/media/testimonials-bg.36734c69.jpg",
+  "static/media/TestimonialsStyles.css": "/helping-hands/static/media/testimonials-bg.fa085076.jpg",
   "static/media/TreatmentStyles.css": "/helping-hands/static/media/treatment-bg2.3d0c37a6.jpg",
   "static/media/MissionStyles.css": "/helping-hands/static/media/mission-bg.11b5b8ca.jpg",
   "static/media/AboutStyles.css": "/helping-hands/static/media/about-us-bg.6c501407.jpg",
   "static/media/InsuranceStyles.css": "/helping-hands/static/media/insurance-bg.594d7b80.jpg",
   "static/media/ContactStyles.css": "/helping-hands/static/media/contact-bg.a271a999.jpg",
-  "static/css/main.0bacc027.chunk.css.map": "/helping-hands/static/css/main.0bacc027.chunk.css.map",
+  "static/css/main.ffd82546.chunk.css.map": "/helping-hands/static/css/main.ffd82546.chunk.css.map",
   "index.html": "/helping-hands/index.html",
-  "precache-manifest.827f0c0bd729367d043f45ac263efbe3.js": "/helping-hands/precache-manifest.827f0c0bd729367d043f45ac263efbe3.js",
+  "precache-manifest.d60e7a7aa79f93ec2cf63c52c7285dfa.js": "/helping-hands/precache-manifest.d60e7a7aa79f93ec2cf63c52c7285dfa.js",
   "service-worker.js": "/helping-hands/service-worker.js"
 }
