@@ -6,6 +6,9 @@ import Aetna from '../../assets/aetna.png'
 import Beacon from '../../assets/beacon.png'
 import Bluecross from '../../assets/bluecross.png'
 import Cigna from '../../assets/cigna.png'
+import MHN from '../../assets/mhn.png'
+import United from '../../assets/united-healthcare.png'
+
 
 import { Link as LinkRoll } from 'react-scroll'
 
@@ -48,6 +51,19 @@ const InsuranceSection = () => {
                     <Fade bottom>
                     <div className='insurance-thumbnail'>
                         <img src= { Cigna } alt="Cigna Logo" loading="lazy" />   
+                    </div>
+                    </Fade>
+
+                    <Fade top>
+                    <div className='insurance-thumbnail'>
+                        <img src= { MHN } alt="Bluecross Logo" loading="lazy" />   
+                    </div>
+                    </Fade>
+
+
+                    <Fade bottom>
+                    <div className='insurance-thumbnail'>
+                        <img src= { United } alt="Cigna Logo" loading="lazy" />   
                     </div>
                     </Fade>
 

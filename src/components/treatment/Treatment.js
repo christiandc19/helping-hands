@@ -31,7 +31,7 @@ const Treatment = () => {
             <div className="container">
                 <div className="content">
                     <Fade right>
-                    <h2><span>Our</span> Treatment</h2>
+                    <h1>Treatment</h1>
                     </Fade>
                     <Fade left>
                     <p>All treatment clients will have a recovery/treatment plan developed within 30 days of admission. Measurement and reassessment of treatment plan progress happen on a weekly basis through the weekly summary. In the weekly summary, the drug and alcohol counselor will ensure that action steps to be taken by client or counselor are on target and that the action step achievements will enable resolution of the objective. All treatment plans are reviewed by and signed off on by the clinical director. </p>
@@ -52,9 +52,9 @@ const Treatment = () => {
 <div className='service-1'>
       <div className='service-1-description'>
         <Fade left>
-                    <p><span>Key Areas/Fundamentals </span>
+                    <h1>Key Areas/Fundamentals</h1>
                     <br /> <br />
-                    The treatment plan will be developed between client and counselor from key information gleaned from the assessment and intake process. This treatment plan will be goal and action oriented with objective and measurable criteria. Each treatment plan will have a statement of problem(s) with which the client identifies, statement of objectives to be reached that addressees each problem, action steps for client and counselor to ensure that objective will be completed. 
+                    <p>The treatment plan will be developed between client and counselor from key information gleaned from the assessment and intake process. This treatment plan will be goal and action oriented with objective and measurable criteria. Each treatment plan will have a statement of problem(s) with which the client identifies, statement of objectives to be reached that addressees each problem, action steps for client and counselor to ensure that objective will be completed. 
                     </p><br />
                     <p>
                     Counselor and client will work together to compose a treatment plan with clear objectives and goals based on key areas intake assessment. It will include: challenges that the client may encounter during recovery process, clear methods of navigating obstacles in recovery, action steps to be taken by the program and/or client to overcome the challenges of recovery.
@@ -96,15 +96,15 @@ const Treatment = () => {
       <div className='service-1-description'>
         <Fade right>
                     <br /><br />
-                    <p className='revisions'><span>Revisions  </span>
+                    <p className='revisions'>Revisions</p>
                     <br /> <br />
-                    As mentioned above, the weekly summary reflective of the session between client and counselor/therapist will measure each treatment plan goal on a weekly basis. The client will also initial the weekly summary as this is a review of the treatment plan goals and objectives. Furthermore, clients may have new issues come up during treatment that were not identified at the time of assessment. Drug and alcohol counselors/therapists will develop new treatment plan goals as needed using this protocol whenever necessary. </p>
+                    <p>As mentioned above, the weekly summary reflective of the session between client and counselor/therapist will measure each treatment plan goal on a weekly basis. The client will also initial the weekly summary as this is a review of the treatment plan goals and objectives. Furthermore, clients may have new issues come up during treatment that were not identified at the time of assessment. Drug and alcohol counselors/therapists will develop new treatment plan goals as needed using this protocol whenever necessary. </p>
 
                     <br /><br /><br /> <br />
 
-                    <p className='recreation'><span>Recreation </span>
+                    <p className='recreation'>Recreation</p>
                     <br /> <br />
-                    During treatment we promote having fun in sobriety. Clients learn how to develop interests and hobbies that do not include drugs and alcohol. Clients must be cleared by the doctor to participate. Organized activities may include but are not limited to:                   </p><br />
+                    <p>During treatment we promote having fun in sobriety. Clients learn how to develop interests and hobbies that do not include drugs and alcohol. Clients must be cleared by the doctor to participate. Organized activities may include but are not limited to:</p><br />
 
                     <p><RiMovieFill /> Movies</p><br />
                     <p><GiBowlingStrike /> Bowling</p><br />

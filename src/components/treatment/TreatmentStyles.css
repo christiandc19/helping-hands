@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Viga&display=swap');
+
+
 
 .treatment {
     width: 100%;
@@ -7,28 +7,6 @@
     background: rgba(0, 0, 0, .4);
     position: relative;
 }
-
-.service-1 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin: 5rem;
-}
-
-.service-1-description {
-    width: 50%;
-    text-align: justify;    
-}
-
-.service-1-image {
-    width: 40%; 
-}
-
-.service-1-image img {
-    border-radius: 1rem;
-    width: 100%;
-}
-
 
 .treatment:before {
     content: '';
@@ -47,19 +25,64 @@
     padding: 1rem;
 }
 
-.treatment h2, .treatment-header1 {
-    font-family: 'Viga', sans-serif;
+.treatment h1 {
     color: var(--primary-color);
+    text-align: left;
+    font-size: 35px;
 }
 
 .treatment p {
     color: #f8f8f8;
     margin: 1rem 0;
     text-align: justify;
+    font-family: 'Roboto', sans-serif;
 }
 
-.treatment-header1 {
-    margin-top: 2rem;
+
+/* ---------------------------> SECTION 1 */
+
+.treatment-header1 h1 {
+    margin: 2rem auto;
+    font-size: 35px;
+}
+
+.service-1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 5rem;
+}
+
+.service-1-description {
+    width: 50%;
+    text-align: justify;    
+}
+
+.service-1-description h1{
+    font-size: 25px; 
+    text-align: left; 
+    margin-bottom: -1rem;  
+}
+
+.service-1-description p {
+    font-size: 15px; 
+    text-align: left;   
+}
+
+
+
+.service-1-image {
+    width: 40%; 
+}
+
+.service-1-image img {
+    border-radius: 1rem;
+    width: 100%;
+}
+
+.service-1 .revisions, .service-1 .recreation {
+    font-size: 25px;
+    color: var(--primary-color);
 }
 
 @media screen and (max-width:940px) {

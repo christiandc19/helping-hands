@@ -1,6 +1,6 @@
 .InsuranceSection {
     width: 100%;
-    height: 50vh;
+    height: 60vh;
     position: relative;
     background: rgba(255, 255, 255, 0);
 }
@@ -56,7 +56,7 @@ margin-top: 1rem;
     }
 
     .InsuranceSection {
-        height: 50vh;
+        height: 60vh;
     }
 
     .testimInsuranceSectiononials h2 {

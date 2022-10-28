@@ -11,20 +11,54 @@ import Services3 from '../../assets/addiction-treatment.png'
 import Services4 from '../../assets/employment-assistance.png'
 import Service3 from '../../assets/treatment-image-1.jpg'
 
+import WelcomePhoto from '../../assets/welcome-photo.jpg'
+import { FaPills } from 'react-icons/fa'
+import { FaHandHoldingHeart } from 'react-icons/fa'
+import { FaClinicMedical } from 'react-icons/fa'
+import { BsPeopleFill } from 'react-icons/bs'
+import { FaUserNurse } from 'react-icons/fa'
+import { MdGroups } from 'react-icons/md'
+
+
 
 const Services = () => {
   return (
     <>
+
+
+<div className='welcome-section'>
+            <div className='welcome-section-description'>
+                <Fade left>
+                <h1>Welcome to Helping Hands Rehab Center</h1>
+
+                <br /> <br />
+                <p>At Helping Hands Rehab Center, we offer different levels of care based on each individual’s needs. Our programs consist of an intensive outpatient program (IOP) and a more demanding and structured partial hospitalization program (PHP). You can be confident that our caring and professional staff will recommend the right level of care for you or your loved one.                    </p><br />
+                <p>Counselor and client will work together to compose a treatment plan with clear objectives and goals based on key areas intake assessment. It will include: challenges that the client may encounter during recovery process, clear methods of navigating obstacles in recovery, action steps to be taken by the program and/or client to overcome the challenges of recovery.
+                </p><br />
+                </Fade>
+            </div>
+        
+            <div className='welcome-photo'>
+                <img src={ WelcomePhoto } alt="" />
+            </div>
+</div>
+
+<hr className='hr-container'/>
+
+
+{/*  */}
+
     <div className='services'>
         <div className="container">
             <Fade top>
             <div className="content">
                 <h2>OUR SERVICES</h2>
-                <p>At Natural Rest House, clients receive individual therapy alongside a range of additional treatments, including relapse prevention, trauma therapy, mindfulness meditation, transportation, yoga, and more. We offer support that clients need to allow them to gradually go back to treatment. </p>
+                <p>At Helping Hands Rehabilation center, clients receive individual therapy alongside a range of additional treatments, including relapse prevention, trauma therapy, mindfulness meditation, transportation, yoga, and more. We offer support that clients need to allow them to gradually go back to treatment. </p>
             </div>
             </Fade>
         </div>
     </div>
+
 
 {/* ---------------------------------------------- START of CARDS -------------------------------------------------*/}
 
@@ -74,22 +108,51 @@ const Services = () => {
 {/* ---------------------------------------------- THIRD SECTION - SERVICES -------------------------------------------------*/}
 <hr className='hr-container'/>
 
-<div className='service-3'>
-      <div className='service-3-description'>
+<div className='section-3'>
+      <div className='section-3-description'>
         <Fade left>
 
-                    <p><span> What We Do </span>
+                    <p><span> The Best Luxury Addiction Treatment in Los Angeles, CA </span></p>
                     <br /> <br />
-                    At Get Reak Treatment Center, we offer different levels of care based on each individual’s needs. Our programs consist of an intensive outpatient program (IOP) and a more demanding and structured partial hospitalization program (PHP). You can be confident that our caring and professional staff will recommend the right level of care for you or your loved one.                    </p><br />
                     <p>
-                    Counselor and client will work together to compose a treatment plan with clear objectives and goals based on key areas intake assessment. It will include: challenges that the client may encounter during recovery process, clear methods of navigating obstacles in recovery, action steps to be taken by the program and/or client to overcome the challenges of recovery.
+                    The Helping Hands Treatment Center has a strong commitment to mental health and addiction and improving lives of Americans, and as such we will continue to provide services to those who are seeking support and treatment. We are a fully accredited facility with exemplary standing; the Health Centre achieves the highest standards of care and excellent outcomes.
+                    </p><br />
+                    <p>
+                    As a luxury rehabilitation centre, our location offers true and complete freedom to guide you on your recovery path. At Helping Hands Treatment Center,  you will receive treatments  that are fully personalized, holistic, family oriented, and scientifically approached.                     
                     </p><br />
         </Fade>
 
-
         </div>
-                <div className='service-3-image'>
-                    <img src={ Service3 } alt="" />
+                
+                <div className='section-3-icons'>
+                    <div className='icon-container'>
+                        <FaPills className='mail-icon icon' />
+                        <p>Medication Assitance</p>
+                    </div>
+                    <div className='icon-container'>
+                        <FaHandHoldingHeart className='mail-icon icon' />
+                        <p>24/7 Support</p>
+                    </div>
+                    <div className='icon-container'>
+                        <FaClinicMedical className='mail-icon icon' />
+                        <p>Proven Methods</p>
+                    </div>
+                    <div className='icon-container'>
+                        <BsPeopleFill className='mail-icon icon' />
+                        <p>One-to-One Ration</p>
+                    </div>
+                    <div className='icon-container'>
+                        <MdGroups className='mail-icon icon' />
+                        <p>Dedicated Staff</p>
+                    </div>
+                    <div className='icon-container'>
+                        <FaUserNurse className='mail-icon icon' />
+                        <p>24/7 Nurse On-Site</p>
+                    </div>
+
+
+
+                    {/* <img src={ Service3 } alt="" /> */}
                 </div>
         </div>
 

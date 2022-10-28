@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 :root {
   --primary-color: #1C6DD0;
   --primary-dark: #0d2154;
   --secondary-color: #5BB318;
+  --gold: #ffaf02;
 }
 span {
   color: var(--primary-color);
@@ -25,8 +26,7 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'Roboto', sans-serif;
 }
 
 ul {
@@ -41,14 +41,22 @@ a {
 p {
   font-size: 1.2rem;
   line-height: 1.4;
+  font-family: 'Roboto', sans-serif;
+
 }
 
 h1 {
   font-size: 3.5rem;
+  color: var(--primary-color);
+  font-family: 'Roboto', sans-serif;
+
 }
 
 h2 {
   font-size: 3rem;
+  color: var(--primary-color);
+  font-family: 'Roboto', sans-serif;
+
 }
 
 .container {

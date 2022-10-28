@@ -12,10 +12,9 @@ const Hero = () => {
 
             <video src={BgVideo} autoPlay muted loop className='video-bg' />
             <div className='bg-overlay'></div>
-            <div className="container">
+            <div className="hero-container">
                 <div className="content">
-                <Fade top><h1>Helping <span className='hands'>Hands</span> Rehab</h1></Fade> 
-                
+                <Fade top><h1>Helping Hands</h1></Fade> 
                 <Fade bottom>
                     <h2 className='subtitle'>Addiction Resources Center</h2>
                 </Fade>
