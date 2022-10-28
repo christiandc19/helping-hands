@@ -1,16 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 
-
-/* WELCOME SECTION */
+/* WELCOME SECTION STYLES*/
 .welcome-section {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: 5rem;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
 }
 
 .welcome-photo {
-    width: 40%;
+    width: 700px;
 }
 
 .welcome-photo img {
@@ -19,7 +20,7 @@
 }
 
 .welcome-section-description{
-    width: 50%;
+    width: 700px;
     text-align: justify; 
     margin-top: 1rem;  
 }
@@ -32,9 +33,17 @@
     font-size: 16px;
 }
 
-/*  */
+/* END OF WELCOME SECTION STYLES */
 
 
+
+
+
+/* OUR SERVICES SECTION */
+
+.services {
+    margin-top: -3rem;
+}
 
 .services .content {
     height: 20vh;
@@ -42,38 +51,24 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    margin-top: 2rem;
+    margin-top: 3rem;
 }
+
+.services h1 {
+    font-size: 2rem;
+    margin: auto;
+}
+
+/* END OF OUR SERVICES SECTION */
+
+
+
+
+
+/* START OF CARDS */
 
 .serviceCards {
     margin: auto;
-}
-
-.tabs {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-}
-
-.tab {
-    width: 20%;
-    text-align: center;
-    border: 1px solid salmon;
-    padding: 5px;
-}
-
-.tab1 {
-    background-color: aquamarine;
-}
-
-.hr-container {
-    width: 80%;
-    margin: auto;
-    top: 20px;
-    border: none;
-    height: 2px;
-    background: var(--primary-color);
-    margin-bottom: 50px;
 }
 
 .service-cards-btn button {
@@ -81,7 +76,11 @@
     margin-bottom: 4rem;
 }
 
-/* ----------------> SECTION 3 */
+/* END OF OUR CARDS SECTION */
+
+
+
+/* BEST LUXURY SECTION */
 
 .section-3 {
     display: flex;
@@ -90,36 +89,23 @@
     margin: 5rem;
 }
 
-.section-3 span {
-    font-size: 2rem;
-}
 
 .section-3-description {
-    width: 50%;
+    width: 700px;
     text-align: justify; 
     margin-top: 1rem;
     padding: 1rem;   
-}
-
-.service-3-image {
-    width: 40%; 
-}
-
-.service-3-image img {
-    border-radius: 1rem;
-    width: 100%;
 }
 
 .section-3-icons {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    gap: 3rem;
-    width: 50%;
-    padding: 3rem;  
+    gap: 1rem;
+    width: 700px;
+    padding: 2rem;  
     margin: auto; 
 }
-
 
 .section-3-icons .icon {
     font-size: 7rem;
@@ -137,111 +123,44 @@ text-align: center;
 width: 200px;
 }
 
-/* ----------------------> SECTION 4 */
-
-.services h2, .services-third h2 {
-    color: var(--primary-color);
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
-    text-align: center;
-    margin-top: 2rem;
+.section-3-description h1 {
+    font-size: 2rem;
 }
 
-.services-third p {
-    font-size: 25px;
-    text-align: center;
-    margin-bottom: 2rem;
-    font-family: 'Poppins';
+.section-3-description p {
+    font-size: 16px;
 }
-
-
-/* Third Section */
-
-.third-section {
-    display: flex;
-    justify-content: space-around;
-    width: 100vw;
-}
-
-.quote {
-    width: 100%;
-    text-align: center;
-    padding: 8rem 10rem;
-}
-
-
-.third-section-image img {
-    border-radius: 2rem;
-    width: 100%;
-    padding: 5rem 10rem;
-}
-
-/* End of Third Section */
-
 
 /* MEDIA QUERIES */
 
 @media screen and (max-width:940px) {
 
-    .services .content {
-        height: 30vh;
-    }
 
-   .services .content h2 {
-    margin-top: 5rem;
-   } 
-
-   .services .content p {
-    margin-bottom: 2rem;
-   } 
-
-   .third-section-image img {
-    display: none;
+/* ----------------> WELCOME SECTION */
+.welcome-section {
+    margin: -2rem 1rem 0rem 1rem;
 }
 
-.third-section {
-    flex-wrap: wrap;
+.welcome-photo img {
+    width: 90%;
+    margin: 2rem;
 }
 
- .third-section .quote {
-    width: 100%;
-    text-align: center;
-    padding: 1rem 2rem;
+/* ----------------> OUR SERVICES SECTION */
+
+.services h2 {
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    font-size: 30px;
 }
 
-.services .content {
-margin-top: 2rem;
+.services p {
+    font-size: 16px;
+    margin: 0 1rem 3rem 1rem;
 }
 
-.services-third p {
-    font-size: 18px;
-    margin-top: -1rem;
-}
+/* -------------> THE BEST LUXURY SECTION */
 
-
-.services-third h2 {
-    font-size: 27px;
-}
-
-.third-section .quote p {
-    font-size: 15px;
-    margin-top: -2rem;
-}
-
-.service-3 {
-    margin: 1rem;
-
-}
-
-.service-3 img {
-    display: none;
-}
-
-.service-3-description {
-    width: 100%;
-    text-align: justify; 
-    margin-top: 0;
-}
 
 }
 

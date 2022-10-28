@@ -84,6 +84,17 @@ button:hover {
   border: 1px solid #47dcff;
 }
 
+
+.hr-container {
+  width: 80%;
+  margin: auto;
+  top: 20px;
+  border: none;
+  height: 2px;
+  background: var(--primary-color);
+  margin-bottom: 50px;
+}
+
 @media screen and (max-width: 940px) {
   h1 {
     font-size: 3rem;
