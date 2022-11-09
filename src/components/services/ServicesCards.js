@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../components/services/ServicesCardsStyles.css'
+import '../../components/services/ServicesCards.css'
 
 function ServicesCards(props) {
   return (

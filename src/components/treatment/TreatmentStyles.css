@@ -39,50 +39,153 @@
 }
 
 
-/* ---------------------------> SECTION 1 */
+/* KEY AREAS */
+
+.treatment-header1 {
+    padding: 2rem;
+}
 
 .treatment-header1 h1 {
-    margin: 2rem auto;
     font-size: 35px;
+    color: var(--primary-color);
 }
 
-.service-1 {
+.treatment-header1 p {
+    padding: 25px ;
+    font-size: 15px;
+}
+
+.keyAreasContainer {
+    background-color: #3A8891;
+}
+
+.keyAreas {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    margin: 5rem;
+    justify-content: center;
+    top: 30%;
+    padding: 3rem;
 }
 
-.service-1-description {
-    width: 50%;
-    text-align: justify;    
+.keyAreas-description {
+    width: 900px;
+    text-align: justify; 
+    padding: 1rem;   
 }
 
-.service-1-description h1{
+
+.keyAreas-description h1{
     font-size: 25px; 
     text-align: left; 
-    margin-bottom: -1rem;  
+    padding: 1rem;
 }
 
-.service-1-description p {
+.keyAreas-description p {
     font-size: 15px; 
-    text-align: left;   
+    text-align: justify; 
+    color: white;  
 }
 
-
-
-.service-1-image {
-    width: 40%; 
+.keyAreas-image {
+    background-color: rgb(209, 86, 37);
+    position: relative;
+    width: 350px;
+    height: 400px;
+    padding: 2rem;
+    margin: 2rem;
 }
 
-.service-1-image img {
+.keyAreas-image img {
     border-radius: 1rem;
     width: 100%;
+    height: 100%;
+    position: absolute;
 }
 
-.service-1 .revisions, .service-1 .recreation {
+.keyAreas .revisions, .keyAreas .recreation {
     font-size: 25px;
     color: var(--primary-color);
+}
+
+
+/* RECREATIONS */
+
+.recreationContainer {
+    background-color: #3A8891;
+    position: relative;
+    margin: 1rem 0 0 0;
+}
+
+.recreationContainer h1{
+    font-size: 25px;
+    padding: 1rem;
+}
+
+.recreation-headline {
+    font-size: 15px;
+    color: white;
+    padding: 0 2rem;
+    text-align: center;
+}
+
+.recreation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    top: 30%;
+    padding: 3rem;
+
+}
+
+.recreation-description {
+    width: 600px;
+    text-align: justify; 
+    gap: 1rem;
+    padding: 3rem;
+}
+
+.recreation-description p {
+    font-size: 15px; 
+    text-align: justify; 
+    color: white;  
+}
+
+.recreation-image {
+    background-color: rgb(209, 86, 37);
+    position: relative;
+    width: 350px;
+    height: 400px;
+    padding: 2rem;
+    margin: 2rem;
+}
+
+.recreation-image img {
+    border-radius: 1rem;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.recreation-header1 {
+    padding: 2rem;
+    position: relative;
+}
+
+.recreation-header1 h1 {
+    font-size: 25px;
+    color: var(--primary-color);
+}
+
+.recreation-header1 p {
+    padding: 25px ;
+    font-size: 15px;
+    text-align: center;
+    
+}
+
+.recreation-contact {
+    color: white;
+    font-size: 14px;
 }
 
 @media screen and (max-width:940px) {

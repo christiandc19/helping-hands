@@ -15,7 +15,7 @@ const Hero = () => {
             <div className='bg-overlay'></div>
             <div className="hero-container">
                 <div className="content">
-                <Fade top><h1>Helping Hands</h1></Fade> 
+                <Fade top><h1>HELPING HANDS</h1></Fade> 
                 <Fade bottom>
                     <h2 className='subtitle'>Addiction Resources Center</h2>
                 </Fade>

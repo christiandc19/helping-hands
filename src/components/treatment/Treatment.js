@@ -47,17 +47,19 @@ const Treatment = () => {
 
 {/* ------------------ SECTION 1 --------------------- */}
 
-<div className='treatment-header1'><h1>Addiction Treatment Program</h1></div>
+<div className='treatment-header1'>
+    <h1>Treatment Plan</h1>
+    <p>The treatment plan will be developed between client and counselor from key information gleaned from the assessment and intake process. This treatment plan will be goal and action oriented with objective and measurable criteria. Each treatment plan will have a statement of problem(s) with which the client identifies, statement of objectives to be reached that addressees each problem, action steps for client and counselor to ensure that objective will be completed.</p>
+</div>
 
-<div className='service-1'>
-      <div className='service-1-description'>
+
+<div className='keyAreasContainer'>
+    <div className='keyAreas'>
+      <div className='keyAreas-description'>
+          <h1>Key Areas/Fundamentals</h1>
+
         <Fade left>
-                    <h1>Key Areas/Fundamentals</h1>
-                    <br /> <br />
-                    <p>The treatment plan will be developed between client and counselor from key information gleaned from the assessment and intake process. This treatment plan will be goal and action oriented with objective and measurable criteria. Each treatment plan will have a statement of problem(s) with which the client identifies, statement of objectives to be reached that addressees each problem, action steps for client and counselor to ensure that objective will be completed. 
-                    </p><br />
-                    <p>
-                    Counselor and client will work together to compose a treatment plan with clear objectives and goals based on key areas intake assessment. It will include: challenges that the client may encounter during recovery process, clear methods of navigating obstacles in recovery, action steps to be taken by the program and/or client to overcome the challenges of recovery.
+                    <p>Counselor and client will work together to compose a treatment plan with clear objectives and goals based on key areas intake assessment. It will include: challenges that the client may encounter during recovery process, clear methods of navigating obstacles in recovery, action steps to be taken by the program and/or client to overcome the challenges of recovery.
                     </p><br />
                     <p>
                     Some areas to be examined may be personal relationships, work, anger management, lack of power, financial burdens, separation from children, past trauma as it relates to present, school, etc. 
@@ -76,36 +78,33 @@ const Treatment = () => {
                     </p>
         </Fade>
         </div>
-                <div className='service-1-image'>
-                    <img src={ Service1 } alt="" />
+                <div className='keyAreas-image-container'>
+                    <div className='keyAreas-image'>
+                        <img src={ Service1 } alt="" />
+                    </div>
                 </div>
+    </div>
 </div>
-
-
-
 
 {/* ------------------- RECREATION --------------- */}
 
-<hr className='hr-container'/>
 
-<div className='service-1'>
+<div className='recreation-header1'>
+    <h1>REVISIONS</h1>
+    <p>As mentioned above, the weekly summary reflective of the session between client and counselor/therapist will measure each treatment plan goal on a weekly basis. The client will also initial the weekly summary as this is a review of the treatment plan goals and objectives. Furthermore, clients may have new issues come up during treatment that were not identified at the time of assessment. Drug and alcohol counselors/therapists will develop new treatment plan goals as needed using this protocol whenever necessary. </p>
+</div>
 
-<div className='service-1-image'>
+<div className='recreationContainer'>
+    <h1>RECREATIONS</h1>
+    <p className='recreation-headline'>During treatment we promote having fun in sobriety. Clients learn how to develop interests and hobbies that do not include drugs and alcohol. Clients must be cleared by the doctor to participate. Organized activities may include but are not limited to:</p><br />
+
+        <div className='recreation'>
+                <div className='recreation-image'>
                     <img src={ Activity } alt="" />
                 </div>
-      <div className='service-1-description'>
-        <Fade right>
-                    <br /><br />
-                    <p className='revisions'>Revisions</p>
-                    <br /> <br />
-                    <p>As mentioned above, the weekly summary reflective of the session between client and counselor/therapist will measure each treatment plan goal on a weekly basis. The client will also initial the weekly summary as this is a review of the treatment plan goals and objectives. Furthermore, clients may have new issues come up during treatment that were not identified at the time of assessment. Drug and alcohol counselors/therapists will develop new treatment plan goals as needed using this protocol whenever necessary. </p>
 
-                    <br /><br /><br /> <br />
-
-                    <p className='recreation'>Recreation</p>
-                    <br /> <br />
-                    <p>During treatment we promote having fun in sobriety. Clients learn how to develop interests and hobbies that do not include drugs and alcohol. Clients must be cleared by the doctor to participate. Organized activities may include but are not limited to:</p><br />
-
+                <div className='recreation-description'>
+                    <Fade right>
                     <p><RiMovieFill /> Movies</p><br />
                     <p><GiBowlingStrike /> Bowling</p><br />
                     <p><FaUmbrellaBeach /> Beach/Lake Activities</p><br />
@@ -115,14 +114,12 @@ const Treatment = () => {
                     <p><MdSportsSoccer /> Sporting events (Major League Baseball, National Hockey League, etc.)</p><br />
                     <p><FaHiking /> Hiking/Nature walks</p><br />
                     <p><MdPool /> Community pool</p><br />
-                    <p><MdVolunteerActivism /> Sober events/fundraisers </p><br />
-                    <br/>
-                    <p>For more information about our addiction treatment programs, please contact Helping Hands Treatment Center today at 844 311-1705.</p>
-                    
-        </Fade>
+                    <p><MdVolunteerActivism /> Sober events/fundraisers </p><br />    
+                    </Fade>
+                </div>
+                    <p className='recreation-contact'>For more information about our addiction treatment programs, please contact Helping Hands Treatment Center today at 844 311-1705.</p>
         </div>
 </div>
-
 
 
 
