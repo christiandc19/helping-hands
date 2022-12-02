@@ -32,7 +32,7 @@ const ContactForm = () => {
             <div className='contactForm'>
                 <div className="map">
                     <div className="location">
-                        <h1 className="location-header">Get In Touch</h1><br />
+                        <h1>GET IN TOUCH</h1><br />
                         <p><AiOutlinePhone /> +1 123 456 7890  </p><br />
                         <p><AiOutlineMail /> info@palmspringsrehab.com  </p><br />
                         <p><BsFillPinMapFill /> 1800 Vine Street Los Angeles Ca 90028  </p><br />

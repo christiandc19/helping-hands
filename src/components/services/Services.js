@@ -30,7 +30,7 @@ const Services = () => {
 
             <div className='welcome-section-description'>
                 <Fade left>
-                <h1>Welcome to Helping Hands Rehab Center</h1><br />
+                <h1>WELCOME TO HELPING HANDS REHAB CENTER</h1><br />
                 <p>At Helping Hands Rehab Center, we offer different levels of care based on each individual’s needs. Our programs consist of an intensive outpatient program (IOP) and a more demanding and structured partial hospitalization program (PHP). You can be confident that our caring and professional staff will recommend the right level of care for you or your loved one.                    </p><br />
                 <p>Counselor and client will work together to compose a treatment plan with clear objectives and goals based on key areas intake assessment. It will include: challenges that the client may encounter during recovery process, clear methods of navigating obstacles in recovery, action steps to be taken by the program and/or client to overcome the challenges of recovery.
                 </p>
@@ -42,7 +42,6 @@ const Services = () => {
             </div>
 </div>
 
-<hr className='hr-container'/>
 
 {/* END OF WELCOME SECTION */}
 
@@ -107,7 +106,6 @@ const Services = () => {
 
 
 {/* ---------------------------------------------- THIRD SECTION - SERVICES -------------------------------------------------*/}
-<hr className='hr-container'/>
 
 <div className='section-3'>
 
@@ -153,7 +151,6 @@ const Services = () => {
 </div>
 
 {/* ---------------------------------------------- END of THIRD SECTION - SERVICES -------------------------------------------------*/}
-<hr className='hr-container'/>
 
 
   </>

@@ -4,31 +4,41 @@ import Fade from 'react-reveal/Fade';
 import { Link as LinkRoll } from 'react-scroll'
 import './HeroStyles.css'
 
-import BgVideo from '../../assets/hero-vbg2.mp4'
+import BgVideo from '../../assets/hero-vb2.mp4'
 
 const Hero = () => {
     return (
+        <>
+        <div className='home'>
+             <video src={BgVideo} autoPlay muted loop playsInline className='video-bg' />
 
-        <div className='hero'>
-
-            <video src={BgVideo} autoPlay muted loop className='video-bg' />
-            <div className='bg-overlay'></div>
             <div className="hero-container">
                 <div className="content">
-                <Fade top><h1>HELPING HANDS</h1></Fade> 
-                <Fade bottom>
-                    <h2 className='subtitle'>Addiction Resources Center</h2>
-                </Fade>
-                    <blockquote>"My recovery must come first so that everything I love in life does not have to come last." </blockquote>
-                    <p>- Unknown</p>
-                    <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                    <Link to="/about-us">
-                    <div><button>Learn More</button></div>
+                    
+                    <h1>HELPING HANDS</h1>
+                    {/* <div className='hero-logo'>
+                    <Fade left>
+                        <img src={ HeroLogo } alt="" />
+                    </Fade>
+                    </div> */}
+                
+                    <Fade bottom>
+                        <h2 className='subtitle'>MENTAL HEALTH TREATMENT FACILITY</h2>
+                        <p>Find your happiness and learn to put it first.</p>
+                    </Fade>
+                        <br />
+                        <div className='home-btn'>
+                        <Link to="/treatment">
+                        <button>Learn More</button>
                     </Link>
-                    </LinkRoll>    
+                    </div>
                 </div>
             </div>
         </div>
+
+
+
+        </>
     )
 }
 

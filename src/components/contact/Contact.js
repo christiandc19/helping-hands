@@ -24,8 +24,7 @@ const Contact = () => {
      </div>
 </div>
 
-      <ContactForm />
-
+<ContactForm />
       </>
     )
 }
