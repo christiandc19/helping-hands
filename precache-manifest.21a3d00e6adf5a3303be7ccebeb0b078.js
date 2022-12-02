@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "2aad8abf74a676852de0",
-    "url": "/helping-hands/static/css/main.a70aab8b.chunk.css"
+    "revision": "cd490ccde106e818fb4b",
+    "url": "/helping-hands/static/css/main.e11df47c.chunk.css"
   },
   {
-    "revision": "2aad8abf74a676852de0",
-    "url": "/helping-hands/static/js/main.2aad8abf.chunk.js"
+    "revision": "cd490ccde106e818fb4b",
+    "url": "/helping-hands/static/js/main.cd490ccd.chunk.js"
   },
   {
     "revision": "bb790545ed4b6cd75fe2",
@@ -172,7 +172,7 @@ self.__precacheManifest = [
     "url": "/helping-hands/static/media/contact-bg.a271a999.jpg"
   },
   {
-    "revision": "24b1140ac5a9d1aca2268c2e3b4af629",
+    "revision": "88516c142b3b78b79406898e7eb04802",
     "url": "/helping-hands/index.html"
   }
 ];
