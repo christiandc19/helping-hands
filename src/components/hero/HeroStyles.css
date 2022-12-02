@@ -81,22 +81,32 @@
         position: absolute;
         top: 30%;
         left: 0%;
-        /* width: 100%; */
+        width: 100%;
         padding: 20px;
     }
 
     .home h1 {
-        font-size: 2.5rem;
-        line-height: 2.5rem;
+        font-size: 5rem;
+        line-height: 4rem;
+        text-align: center;
+
     }
 
     .subtitle {
         color: var(--primary-color);
-        text-align: left;
-        font-size: .8rem;
-        letter-spacing: 1px;
+        text-align: center;
+        font-size: 1.5rem;
+        letter-spacing: -1px;
         font-weight: 600;
         padding: 1rem 0;
     }
+
+.home p {
+    text-align: center;
+}
+
+.home button {
+    margin: auto;
+}
 
 }
