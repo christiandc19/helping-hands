@@ -33,9 +33,9 @@ const ContactForm = () => {
                 <div className="map">
                     <div className="location">
                         <h1>GET IN TOUCH</h1><br />
-                        <p><AiOutlinePhone /> +1 123 456 7890  </p><br />
-                        <p><AiOutlineMail /> info@palmspringsrehab.com  </p><br />
-                        <p><BsFillPinMapFill /> 1800 Vine Street Los Angeles Ca 90028  </p><br />
+                        <p><AiOutlinePhone /><a href="tel:3237920515"> +1 (323) 792-0515</a></p><br /> 
+                        <p><AiOutlineMail /> info@DomainName.com  </p><br />
+                        <p><BsFillPinMapFill /> 1776 North Highland Avenue, LA, CA 90028  </p><br />
                         <p className="admission">Please call our admission department or fill out the form if you have any questions.</p>
                     </div>
 
@@ -45,13 +45,27 @@ const ContactForm = () => {
                 </div>
 
                 <div className="container contact-container">
+
+
+
+
+
                     <form ref={form} onSubmit={sendEmail}>
                         <h1>SEND A MESSAGE</h1>
                         <input className="user-input" type="text" name='name' placeholder='Name' required />
                         <input className="user-input" type="text" name='email' placeholder='Email' required />
                         <input className="user-input" type="text" name='email' placeholder='Subject' required />
+                        <input className="user-input" type="date" name="date"  placeholder='Select a date' required/>
 
-                        <textarea className="user-input email-input" name="message" rows="4" placeholder="How can we help?" required ></textarea>
+                        <label for="appt">Choose a time for your meeting:</label>
+
+                        <input type="time" id="appt" name="appt"
+                        min="09:00" max="18:00" required />
+
+                        <small>Office hours are 9am to 6pm</small>
+
+
+                        {/* <textarea className="user-input email-input" name="message" rows="4" placeholder="How can we help?" required ></textarea> */}
                         <div className="submit-btn">
                             <button type='submit' className="btn-modal btn btn-primary">Send</button>
                         </div>
