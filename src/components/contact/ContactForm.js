@@ -51,11 +51,13 @@ const ContactForm = () => {
 
 
                     <form ref={form} onSubmit={sendEmail}>
+
                         <h1>SEND A MESSAGE</h1>
                         <input className="user-input" type="text" name='name' placeholder='Name' required />
                         <input className="user-input" type="text" name='email' placeholder='Email' required />
                         <input className="user-input" type="text" name='email' placeholder='Subject' required />
                         <input className="user-input" type="date" name="date"  placeholder='Select a date' required/>
+
 
                         <label for="appt">Choose a time for your meeting:</label>
 
@@ -64,12 +66,13 @@ const ContactForm = () => {
 
                         <small>Office hours are 9am to 6pm</small>
 
-
                         {/* <textarea className="user-input email-input" name="message" rows="4" placeholder="How can we help?" required ></textarea> */}
                         <div className="submit-btn">
                             <button type='submit' className="btn-modal btn btn-primary">Send</button>
                         </div>
+
                     </form>
+
                 </div>
             </div>
     </div>

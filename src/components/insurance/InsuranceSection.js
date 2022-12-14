@@ -6,8 +6,11 @@ import Aetna from '../../assets/aetna.png'
 import Beacon from '../../assets/beacon.png'
 import Bluecross from '../../assets/bluecross.png'
 import Cigna from '../../assets/cigna.png'
-import MHN from '../../assets/mhn.png'
 import United from '../../assets/united-healthcare.png'
+import Horizon from '../../assets/horizon.png'
+import Optima from '../../assets/optima.png'
+import Optum from '../../assets/optum.png'
+import Umr from '../../assets/umr.png'
 
 
 import { Link as LinkRoll } from 'react-scroll'
@@ -22,7 +25,7 @@ const InsuranceSection = () => {
 
                 <Fade top>
                 <div className='flex-left'>
-                        <h2><span>WE WORK WITH MAJOR INSURANCE</span></h2>                   
+                        <h1>WE WORK WITH MAJOR INSURANCE</h1>                   
                         <p>If you don’t see your insurance provider below, please reach out to us to find a way to assist you further.</p>
                 </div>
                 </Fade>
@@ -56,14 +59,33 @@ const InsuranceSection = () => {
 
                     <Fade top>
                     <div className='insurance-thumbnail'>
-                        <img src= { MHN } alt="Bluecross Logo" loading="lazy" />   
+                        <img src= { Umr } alt="UMR Insurance Logo" loading="lazy" />   
                     </div>
                     </Fade>
 
 
                     <Fade bottom>
                     <div className='insurance-thumbnail'>
-                        <img src= { United } alt="Cigna Logo" loading="lazy" />   
+                        <img src= { United } alt="United Logo" loading="lazy" />   
+                    </div>
+                    </Fade>
+
+                    <Fade top>
+                    <div className='insurance-thumbnail'>
+                        <img src= { Optima } alt="Optima Insurance Logo" loading="lazy" />   
+                    </div>
+                    </Fade>
+
+
+                    <Fade bottom>
+                    <div className='insurance-thumbnail'>
+                        <img src= { Optum } alt="Optum Logo" loading="lazy" />   
+                    </div>
+                    </Fade>
+
+                    <Fade top>
+                    <div className='insurance-thumbnail'>
+                        <img src= { Horizon } alt="Horizon Insurance Logo" loading="lazy" />   
                     </div>
                     </Fade>
 
