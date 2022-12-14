@@ -10,7 +10,7 @@
 
 
 .serviceCards-logo {
-    width: 50%;
+    width: 60%;
     margin: auto;
 }
 
@@ -33,7 +33,6 @@
 .main {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
 }
 
 .servicesCards img {

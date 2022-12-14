@@ -72,7 +72,6 @@
 }
 
 .contact-container form {
-    height: 50rem;
     background-color: var(--primary-color);
     border-radius: 1rem;
 }

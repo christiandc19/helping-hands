@@ -11,6 +11,8 @@ import Horizon from '../../assets/horizon.png'
 import Optima from '../../assets/optima.png'
 import Optum from '../../assets/optum.png'
 import Umr from '../../assets/umr.png'
+import Anthem from '../../assets/anthem.png'
+
 
 
 import { Link as LinkRoll } from 'react-scroll'
@@ -24,13 +26,13 @@ const InsuranceSection = () => {
                 <div className="content">
 
                 <Fade top>
-                <div className='flex-left'>
+                <div className='card-header'>
                         <h1>WE WORK WITH MAJOR INSURANCE</h1>                   
                         <p>If you don’t see your insurance provider below, please reach out to us to find a way to assist you further.</p>
                 </div>
                 </Fade>
 
-                <div className='flex-right'>
+                <div className='cards'>
 
                     <Fade top>
                     <div className='insurance-thumbnail'>
@@ -86,6 +88,12 @@ const InsuranceSection = () => {
                     <Fade top>
                     <div className='insurance-thumbnail'>
                         <img src= { Horizon } alt="Horizon Insurance Logo" loading="lazy" />   
+                    </div>
+                    </Fade>
+
+                    <Fade bottom>
+                    <div className='insurance-thumbnail'>
+                        <img src= { Anthem } alt="Anthem Insurance Logo" loading="lazy" />   
                     </div>
                     </Fade>
 

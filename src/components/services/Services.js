@@ -109,7 +109,7 @@ const Services = () => {
 
 <div className='section-3'>
 
-    <div className='section-3-description'>
+    <div className='container section-3-description'>
         <Fade left>
                     <h1>The Best Luxury Addiction Treatment in Los Angeles, CA </h1>
                     <br /> <br />
@@ -122,7 +122,7 @@ const Services = () => {
         </Fade>
     </div>
 
-                <div className='section-3-icons'>
+                <div className='container section-3-icons'>
                     <div className='icon-container'>
                         <FaPills className='mail-icon icon' />
                         <p>Medication Assitance</p>

@@ -26,7 +26,7 @@
 }
 
 .welcome-section-description h1{
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .welcome-section-description p{
@@ -41,6 +41,9 @@
 
 /* OUR SERVICES SECTION */
 
+.services {
+    padding: 1rem;
+}
 .services .content {
     height: auto;
     text-align: center;
@@ -69,7 +72,6 @@
 
 .service-cards-btn button {
     margin: auto;
-    margin-bottom: 4rem;
 }
 
 /* END OF OUR CARDS SECTION */
@@ -79,16 +81,12 @@
 /* BEST LUXURY SECTION */
 
 .section-3 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin: 5rem;
+    padding: 3rem 0;
 }
 
 
 .section-3-description {
-    width: 700px;
-    text-align: justify; 
+    text-align: center; 
     margin-top: 1rem;
     padding: 1rem;   
 }
@@ -97,9 +95,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    gap: 1rem;
-    width: 700px;
-    padding: 2rem;  
     margin: auto; 
 }
 
@@ -135,8 +130,7 @@ width: 200px;
 /* ----------------> WELCOME SECTION */
 
 .welcome-photo img {
-    width: 90%;
-    margin: 2rem;
+    padding: .5rem;
 }
 
 /* ----------------> OUR SERVICES SECTION */

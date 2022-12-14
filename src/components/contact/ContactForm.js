@@ -33,14 +33,14 @@ const ContactForm = () => {
                 <div className="map">
                     <div className="location">
                         <h1>GET IN TOUCH</h1><br />
-                        <p><AiOutlinePhone /><a href="tel:3237920515"> +1 (323) 792-0515</a></p><br /> 
+                        <p><AiOutlinePhone /><a className="tel" href="tel:3237920515"> +1 (323) 792-0515</a></p><br /> 
                         <p><AiOutlineMail /> info@DomainName.com  </p><br />
-                        <p><BsFillPinMapFill /> 1776 North Highland Avenue, LA, CA 90028  </p><br />
+                        <p><BsFillPinMapFill /> 1776 North Highland Avenue, Los Angeles, CA 90028  </p><br />
                         <p className="admission">Please call our admission department or fill out the form if you have any questions.</p>
                     </div>
 
                     <div className="iframe">
-                        <iframe title="map" width="700" height="250" id="gmap_canvas" src="https://maps.google.com/maps?q=1800%20Vine%20Street%20Los%20Angle&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                        <iframe title="map" width="700" height="250" id="gmap_canvas" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=1776%20North%20Highland%20Avenue,%20LA,%20CA%2090028+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
                     </div>
                 </div>
 
@@ -56,7 +56,7 @@ const ContactForm = () => {
                         <input className="user-input" type="text" name='name' placeholder='Name' required />
                         <input className="user-input" type="text" name='email' placeholder='Email' required />
                         <input className="user-input" type="text" name='email' placeholder='Subject' required />
-                        <input className="user-input" type="date" name="date"  placeholder='Select a date' required/>
+                        {/* <input className="user-input" type="date" name="date"  placeholder='Select a date' required/>
 
 
                         <label for="appt">Choose a time for your meeting:</label>
@@ -65,8 +65,8 @@ const ContactForm = () => {
                         min="09:00" max="18:00" required />
 
                         <small>Office hours are 9am to 6pm</small>
-
-                        {/* <textarea className="user-input email-input" name="message" rows="4" placeholder="How can we help?" required ></textarea> */}
+ */}
+                        <textarea className="user-input email-input" name="message" rows="4" placeholder="How can we help?" required ></textarea>
                         <div className="submit-btn">
                             <button type='submit' className="btn-modal btn btn-primary">Send</button>
                         </div>
