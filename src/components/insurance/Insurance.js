@@ -12,6 +12,7 @@ const Insurance = () => {
                     <div className="main-menu-content">
                         <Fade left>
                             <h1>ACCEPTED INSURANCE</h1>
+                            <br/>
                         </Fade>
                         <Fade right>
                             <p>If you don’t see your insurance provider below, please reach out to us to find a way to assist you further.</p>

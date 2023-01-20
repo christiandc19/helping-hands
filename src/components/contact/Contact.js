@@ -13,7 +13,7 @@ const Contact = () => {
        <div className="container">
             <div className="main-menu-content">
             <Fade top>
-                    <h1>Have Some Questions?</h1>
+                    <h1>HAVE SOME QUESTIONS?</h1>
             </Fade>
             </div>
      </div>

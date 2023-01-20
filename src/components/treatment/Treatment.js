@@ -1,8 +1,14 @@
 import React from 'react'
 import Fade from 'react-reveal/Fade';
 import './Treatment.css'
-import Service1 from '../../assets/treatment-image-1.jpg'
+
+
+import Service1 from '../../assets/treatment-1.jpg'
+import Service2 from '../../assets/treatment-2.jpg'
+
 import ContactForm from '../contact/ContactForm';
+
+
 
 import { FaHandPointRight } from 'react-icons/fa';
 import { RiMovieFill } from 'react-icons/ri';
@@ -38,40 +44,58 @@ const Treatment = () => {
 
             {/* -------------------------------- SECTION 1 -------------------------------------- */}
 
-            <div className='treatment-1'>
-                <h1 className='treatment1-header'>KEY AREAS/FUNDAMENTALS</h1>
-                    <div className='description1'>
-                        <div className='flex-item-3'>
-                        <img src={Service1} width="500" height="300" alt="palm trees" />
-                        </div>
-                        <Fade left>
-                        <div className='flex-item-1'>
-                            <p>The treatment plan will be developed between client and counselor from key information gleaned from the assessment and intake process. This treatment plan will be goal and action oriented with objective and measurable criteria. Each treatment plan will have a statement of problem(s) with which the client identifies, statement of objectives to be reached that addressees each problem, action steps for client and counselor to ensure that objective will be completed.
-                            <br/><br/>
-                            Counselor and client will work together to compose a treatment plan with clear objectives and goals based on key areas intake assessment. It will include: challenges that the client may encounter during recovery process, clear methods of navigating obstacles in recovery, action steps to be taken by the program and/or client to overcome the challenges of recovery.
-                            </p>
-                        </div>
 
-                        <div className='flex-item-2'>
-                            <p>
-                            Some areas to be examined may be personal relationships, work, anger management, lack of power, financial burdens, separation from children, past trauma as it relates to present, school, etc. 
-                            <br/><br/>
-                        </p>
-                            <ul>
-                                <li>
-                                <FaHandPointRight /> Counselor and client will set clear and tangible goals regarding above      mentioned obstacles.
-                                </li><br/>
-                                <li>
-                                <FaHandPointRight /> Counselor and client will brainstorm potential hurdles as client attempts to accomplish goals.
-                                </li><br/>
-                                <li>
-                                <FaHandPointRight /> Counselor and client discuss systems for working through hurdles. Counselor and client will — upon following weekly session — discuss successes and setbacks for set goals.
-                                </li>
-                            </ul>
-                        </div>
-                    </Fade>
-                </div>
-            </div>
+    <div className='wrap'>
+    <Fade left>
+    <div className="box left">
+        <h1 className='title'>KEY AREAS/FUNDAMENTALS</h1>
+        <br/>
+        <p>The treatment plan will be developed between client and counselor from key information gleaned from the assessment and intake process. This treatment plan will be goal and action oriented with objective and measurable criteria. Each treatment plan will have a statement of problem(s) with which the client identifies, statement of objectives to be reached that addressees each problem, action steps for client and counselor to ensure that objective will be completed.
+        <br/><br/>
+        Counselor and client will work together to compose a treatment plan with clear objectives and goals based on key areas intake assessment. It will include: challenges that the client may encounter during recovery process, clear methods of navigating obstacles in recovery, action steps to be taken by the program and/or client to overcome the challenges of recovery.
+        </p>
+        <br />
+    </div>
+    </Fade>
+
+    <Fade right>
+    <div className="box">
+        <img src={Service1} width="600px" height="350px" alt="Palm Springs Rehab Logo" loading="lazy" />
+    </div>
+    </Fade>
+</div>
+
+
+<div className='wrap'>
+    
+    <Fade right>
+    <div className="box">
+        <img src={Service2} width="600px" height="350px" alt="Palm Springs Rehab Logo" loading="lazy" />
+    </div>
+    </Fade>
+
+    <Fade left>
+    <div className="box left">
+        <br/>
+        <p>
+        Some areas to be examined may be personal relationships, work, anger management, lack of power, financial burdens, separation from children, past trauma as it relates to present, school, etc. 
+        </p>
+        <br />
+        <ul>
+            <li>
+                <FaHandPointRight /> Counselor and client will set clear and tangible goals regarding above      mentioned obstacles.
+            </li><br/>
+            <li>
+            <FaHandPointRight /> Counselor and client will brainstorm potential hurdles as client attempts to accomplish goals.
+            </li><br/>
+            <li>
+            <FaHandPointRight /> Counselor and client discuss systems for working through hurdles. Counselor and client will — upon following weekly session — discuss successes and setbacks for set goals.
+            </li>
+            </ul>
+    </div>
+    </Fade>
+</div>
+
 
 
 <div className='activity-container'>
