@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/helping-hands/static/css/main.f51d04ca.css",
-    "main.js": "/helping-hands/static/js/main.f122784c.js",
+    "main.css": "/helping-hands/static/css/main.01a705d4.css",
+    "main.js": "/helping-hands/static/js/main.f13c67e4.js",
     "static/media/PhpSection3.webp": "/helping-hands/static/media/PhpSection3.0888edc3800de2cf6329.webp",
     "static/media/PhpSection2.webp": "/helping-hands/static/media/PhpSection2.8d1a38a59afaf147d20c.webp",
     "static/media/IopSection1.webp": "/helping-hands/static/media/IopSection1.efade0228eae4b64f971.webp",
@@ -14,13 +14,14 @@
     "static/media/OpSection2.webp": "/helping-hands/static/media/OpSection2.93e609815dcf04607d2a.webp",
     "static/media/PhpSection1.webp": "/helping-hands/static/media/PhpSection1.81627587cc1186007281.webp",
     "static/media/submenu-bg.jpg": "/helping-hands/static/media/submenu-bg.d3c2be9a924a5da5d632.jpg",
+    "static/media/treatment-1.jpg": "/helping-hands/static/media/treatment-1.9b93aa36872433733c19.jpg",
     "static/media/card3.jpg": "/helping-hands/static/media/card3.dc3c4302916a32425fc1.jpg",
+    "static/media/treatment-2.jpg": "/helping-hands/static/media/treatment-2.6125ee1c93e30c1b25e6.jpg",
     "static/media/menu-bg.jpg": "/helping-hands/static/media/menu-bg.c40576430ebcb25af225.jpg",
     "static/media/whatwedo.jpg": "/helping-hands/static/media/whatwedo.de5e5f2acbffc6cb5e05.jpg",
     "static/media/activity.jpg": "/helping-hands/static/media/activity.18cf9f92ce0257180036.jpg",
     "static/media/card1.jpg": "/helping-hands/static/media/card1.ae733eafe79c7ac1e269.jpg",
     "static/media/therapy.jpg": "/helping-hands/static/media/therapy.16ffd31bf0d0f6a6a2d2.jpg",
-    "static/media/treatment-image-1.jpg": "/helping-hands/static/media/treatment-image-1.a8127dcfad31629b3019.jpg",
     "static/media/hero-image.jpg": "/helping-hands/static/media/hero-image.4ce57f7cf158db274999.jpg",
     "static/media/staff.jpg": "/helping-hands/static/media/staff.4d703a9340e5ca8aa595.jpg",
     "static/media/employment-assistance.png": "/helping-hands/static/media/employment-assistance.7f74813e0bd051e29517.png",
@@ -31,11 +32,11 @@
     "static/media/aetna.png": "/helping-hands/static/media/aetna.ba1c7baa5f90d207ae2b.png",
     "static/media/bluecross.png": "/helping-hands/static/media/bluecross.2f180be7d5ab799101c3.png",
     "index.html": "/helping-hands/index.html",
-    "main.f51d04ca.css.map": "/helping-hands/static/css/main.f51d04ca.css.map",
-    "main.f122784c.js.map": "/helping-hands/static/js/main.f122784c.js.map"
+    "main.01a705d4.css.map": "/helping-hands/static/css/main.01a705d4.css.map",
+    "main.f13c67e4.js.map": "/helping-hands/static/js/main.f13c67e4.js.map"
   },
   "entrypoints": [
-    "static/css/main.f51d04ca.css",
-    "static/js/main.f122784c.js"
+    "static/css/main.01a705d4.css",
+    "static/js/main.f13c67e4.js"
   ]
 }
