@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/helping-hands/static/css/main.3d1d065c.css",
-    "main.js": "/helping-hands/static/js/main.5f9e5ad5.js",
+    "main.css": "/helping-hands/static/css/main.f51d04ca.css",
+    "main.js": "/helping-hands/static/js/main.f122784c.js",
     "static/media/PhpSection3.webp": "/helping-hands/static/media/PhpSection3.0888edc3800de2cf6329.webp",
     "static/media/PhpSection2.webp": "/helping-hands/static/media/PhpSection2.8d1a38a59afaf147d20c.webp",
     "static/media/IopSection1.webp": "/helping-hands/static/media/IopSection1.efade0228eae4b64f971.webp",
@@ -31,11 +31,11 @@
     "static/media/aetna.png": "/helping-hands/static/media/aetna.ba1c7baa5f90d207ae2b.png",
     "static/media/bluecross.png": "/helping-hands/static/media/bluecross.2f180be7d5ab799101c3.png",
     "index.html": "/helping-hands/index.html",
-    "main.3d1d065c.css.map": "/helping-hands/static/css/main.3d1d065c.css.map",
-    "main.5f9e5ad5.js.map": "/helping-hands/static/js/main.5f9e5ad5.js.map"
+    "main.f51d04ca.css.map": "/helping-hands/static/css/main.f51d04ca.css.map",
+    "main.f122784c.js.map": "/helping-hands/static/js/main.f122784c.js.map"
   },
   "entrypoints": [
-    "static/css/main.3d1d065c.css",
-    "static/js/main.5f9e5ad5.js"
+    "static/css/main.f51d04ca.css",
+    "static/js/main.f122784c.js"
   ]
 }
