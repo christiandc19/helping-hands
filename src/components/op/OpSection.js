@@ -1,12 +1,11 @@
 import React from 'react'
-import './OpSection.css'
 import { Link } from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
 import { Link as LinkRoll } from 'react-scroll'
 
 
-import OpSection1 from '../../assets/OpSection1.jpg'
-import OpSection2 from '../../assets/OpSection2.jpg'
+import OpSection1 from '../../assets/OpSection1.webp'
+import OpSection2 from '../../assets/OpSection2.webp'
 import OpSection3 from '../../assets/OpSection3.jpg'
 
 
@@ -81,7 +80,7 @@ const OpSection = () => {
         <br/><br/>
 
         <p>
-        At Helping Hands Rehab Center, we provide several other avenues of addiction treatment. In addition to our partial hospitalization program, we offer:</p>
+        At Helping Hands Treatment Center, we provide several other avenues of addiction treatment. In addition to our partial hospitalization program, we offer:</p>
         <br />
         <ul>
             <li><p>Partial Hospitalization Program - IOP</p></li>

@@ -10,12 +10,13 @@ import MissionPage from './routes/MissionPage'
 import AboutPage from './routes/AboutPage'
 import InsurancePage from './routes/InsurancePage'
 import ContactPage from './routes/ContactPage'
-import TestimonialsPage from './routes/TestimonialsPage'
-
 import Php from './routes/PHP';
 import Iop from './routes/IOP';
 import Op from './routes/OP';
 import Jobs from './routes/JOBS';
+
+
+
 
 ReactDOM.render(
   <BrowserRouter basename={window.location.pathname || ''} >
@@ -26,11 +27,11 @@ ReactDOM.render(
       <Route exact path='/op' element={<Op />} />
       <Route exact path='/jobs' element={<Jobs />} />
 
+
       <Route exact path='/treatment' element={<TreatmentPage />} />
       <Route exact path='/mission' element={<MissionPage />} />
       <Route exact path='/about-us' element={<AboutPage />} />
       <Route exact path='/insurance' element={<InsurancePage />} />
-      <Route exact path='/testimonials' element={<TestimonialsPage />} />
       <Route exact path='/contact' element={<ContactPage />} />
     </Routes>
   </BrowserRouter>,

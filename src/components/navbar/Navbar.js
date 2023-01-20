@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa'
 import {NavLink, Link} from 'react-router-dom'
-import logo from '../../assets/logo-wh.png'
+import logo from '../../assets/nav-logo.png'
 import {FiChevronDown } from "react-icons/fi";
 
-import './Navbar.css'
+import './NavbarStyles.css'
 
 const Navbar = () => {
     const [nav, setNav] = useState(false)
@@ -44,22 +44,23 @@ const Navbar = () => {
         <div name='top' className='navbar'>
             <div className="container">
                 
-                <div className="navbar-logo">
-                    <Link to='/'>
-                    <img src={logo} width="270px" height="80px" alt="Palm Springs Rehab Logo" loading="lazy"/>
-                    </Link>
-                </div>
-
-
                 <ul className={nav ? 'nav-menu active' : 'nav-menu'}>
                     <li><Link to='/'>Home</Link></li>
                     
                     <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="#"> Program <FiChevronDown /> </Link>
-                    <ul className={boxClassSubMenu.join(' ')} > 
-                            <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/php`}> Partial Hospitalization Program </NavLink> </li>
+                    <ul className={boxClassSubMenu.join(' ')} id='submenu-item'> 
+                            <li className='submenu-header'>SUBSTANCE ABUSE </li>
+                            <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/php`}> Partial Hospitalization Program</NavLink> </li>
                             <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/IOP`}> Intensive Outpatient Program </NavLink> </li>
                             <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/OP`}> Outpatient Program </NavLink> </li>
+                            <br/>
+                            <li className='submenu-header'>MENTAL HEALTH</li>
+                            <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/php`}> Partial Hospitalization Program</NavLink> </li>
+                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/IOP`}> Intensive Outpatient Program </NavLink> </li>
+                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/OP`}> Outpatient Program </NavLink> </li>
+                            <br/>
                             <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/Jobs`}> Jobs Program </NavLink> </li>
+
                         </ul>
                     </li>
 
@@ -70,6 +71,15 @@ const Navbar = () => {
                     <li><Link to='/insurance'>Insurance</Link></li>
                     <li><Link to='/contact'>Contact</Link></li>
                 </ul>
+
+                <div className="navbar-logo">
+                    <Link to='/'>
+                    <img src={logo} width="130px" height="80px" alt="Palm Springs Rehab Logo" loading="lazy"/>
+                    </Link>
+                </div>
+
+
+
                 <div className="hamburger" onClick={handleNav}>
                     {!nav ? (<FaBars className='icon' />) : (<FaTimes className='icon' />)}
                 </div>
