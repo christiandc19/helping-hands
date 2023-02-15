@@ -43,8 +43,8 @@ const ContactForm = () => {
         <div class="address details">
           <i class="fas fa-map-marker-alt"></i>
           <div class="topic">Address</div><br/>
-          <div class="text-one">Street # Street Name Suite #,</div>
-          <div class="text-two">City State 12345</div>
+          <div class="text-one">1776 North Highland Ave</div>
+          <div class="text-two">Los Angeles CA 90035</div>
         </div>
 
         <div class="phone details">

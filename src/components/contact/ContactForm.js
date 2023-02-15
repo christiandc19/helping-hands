@@ -70,7 +70,7 @@ const ContactForm = () => {
 
     <div class="get_form_inner2">
             <h2>LOCATION</h2>
-            <p><BsFillPinMapFill />Street # Street Name Suite #, City State 12345</p>
+            <p><BsFillPinMapFill />1776 North Highland Ave, Los Angeles CA 90035</p>
     </div>
 
 </div>
