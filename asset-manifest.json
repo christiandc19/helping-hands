@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/helping-hands/static/css/main.43df7785.css",
-    "main.js": "/helping-hands/static/js/main.df329507.js",
+    "main.js": "/helping-hands/static/js/main.88e8bfb0.js",
     "static/media/whatwedo.png": "/helping-hands/static/media/whatwedo.7f5c9488e4604252948d.png",
     "static/media/menu-bg-treatment.jpg": "/helping-hands/static/media/menu-bg-treatment.140ade98e1c257d84734.jpg",
     "static/media/menu-bg-about.jpg": "/helping-hands/static/media/menu-bg-about.69cb35ce48fbdeb1176b.jpg",
@@ -40,10 +40,10 @@
     "index.html": "/helping-hands/index.html",
     "static/media/waves.svg": "/helping-hands/static/media/waves.e42ddec972c9ec214abc0ac6e8439ee4.svg",
     "main.43df7785.css.map": "/helping-hands/static/css/main.43df7785.css.map",
-    "main.df329507.js.map": "/helping-hands/static/js/main.df329507.js.map"
+    "main.88e8bfb0.js.map": "/helping-hands/static/js/main.88e8bfb0.js.map"
   },
   "entrypoints": [
     "static/css/main.43df7785.css",
-    "static/js/main.df329507.js"
+    "static/js/main.88e8bfb0.js"
   ]
 }
