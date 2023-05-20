@@ -1,131 +1,66 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
 
-.card-wrap
-{
-  width:100%;
-  display:flex;
-  flex-wrap: wrap;
+.top-flex {
+  position: relative;
+  display: flex;
+  gap: 1rem;
+  padding: 3rem 5rem;
+  margin: -5rem 3rem 0 3rem;
+  background-color: rgb(255, 255, 255);
+}
+
+.top-flex-item {
+  display: flex;
   justify-content: center;
-  align-items:space-around;
-
+  gap: 1rem;
 }
 
-.tile
-{
-  width:350px;
-  height:380px;
-  margin:10px;
-  /* background-color:#444549; */
-  display:inline-block;
-  background-size:cover;
-  position:relative;
-  transition: all 0.4s ease-out;
-  /* box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.44); */
-  overflow:hidden;
-  color:white;
-  font-family:'Roboto';
-  border-radius: 10px;
-  /* box-shadow: 10px 5px 5px rgb(129, 129, 129); */
+.top-flex-icon {
+  width: 200px;
 }
 
-.tile img
-{
-  height:100%;
-  width:100%;
-  position:absolute;
-  top:0;
-  left:0;
-  z-index:0;
-  transition: all 0.4s ease-out;
-  border-radius: 10px;
-  box-shadow: 10px 5px 5px rgba(27, 27, 27, 0.774);
+.top-flex-icon img{
+  width: 100%;
 }
 
-.tile .text
-{
-/*   z-index:99; */
-  position:absolute;
-  padding:30px;
-  height:calc(100% - 60px);
-}
-.tile h1
-{
-  color: white;
-  margin:0;
-  text-shadow: 2px 2px 10px rgba(0,0,0,0.3);
-}
-.tile h2
-{
-  font-weight:100;
-  margin:20px 0 0 0;
-  font-style:italic;
-   transform: translateX(200px);
+.top-flex-text h1 {
+  font-size: 1rem;
+  color: #977ab3;
+  padding: 1rem 0;
+  text-align: left;
 }
 
-.tile p
-{
-  color: white;
-  margin:20px 0 0 0;
-  line-height: 25px;
-  opacity:0;
-  transform: translateX(-200px);
-  transition-delay: 0.2s;
-}
-.animate-text
-{
-  opacity:0;
-  transition: all 0.6s ease-in-out;
-}
-
-.tile:hover {
-/*   background-color:#99aeff; */
-box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
-  transform:scale(1.05);
-} 
-
-.tile:hover img {
-  opacity: 0.2;
-} 
-
-.tile:hover .animate-text {
-  transform:translateX(0);
-  opacity:1;
+.top-flex-text p {
+  font-size: 14px;
+  color: #5a5c82;
+  text-align: left;
 }
 
 
-.tile:hover span
-{
-  opacity:1;
-  transform:translateY(0px);
-}
+@media screen and (max-width: 1160px) {
 
+  .top-flex {
+    flex-wrap: wrap ;
+    /* margin: -5rem 3rem 0 3rem; */
 
-.cards-header {
-    width: auto;
-    text-align: justify;
-    margin: 2rem auto;
-    padding: 1rem;
-}
-
-.cards-header h1 {
-  font-size: 1.5rem;
-  text-align: center;
-    margin: 1rem auto;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.cards-header p {
-  font-family: 'Montserrat', sans-serif;
-}
-
-  @media (max-width: 940px) {
-    .card-wrap {
-      width: 100%;
-    }
-  
-    /* .tile { 
-      width: 350px;
-      height:330px;
-    } */
-  
   }
+
+  .top-flex-item {
+    width: 40%;
+    margin: auto;
+  }
+}
+
+
+
+@media screen and (max-width: 940px) {
+  .top-flex {
+    display: none;
+  }
+
+}
+
+
+

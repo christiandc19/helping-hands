@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+
+
+
+.TherapyMH {
+    width: 100%;
+    height: auto;
+    position: relative;
+    justify-content: center;
+    background: #ffffff;
+    padding: 5rem 0 0 0;
+
+}
+  
+  .TherapyMH:before {
+    content: '';
+    position: absolute;
+    /* background: url('../../assets/therapyMH-min.jpg') no-repeat center top/cover; */
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+  }
+
+.TherapyMH .content {
+    top: 10%;
+    padding: 5rem 0;
+    text-align: center;
+}
+
+.box-icon {
+    font-size: 6rem;
+    color: #977ab3;
+}
+
+.box-content {
+    width: 100%;
+    padding: 1rem;
+}
+
+/* LEFT */
+
+.TherapyMH .TherapyMH-left {
+    width: 100%;
+    text-align: center;
+}
+
+.TherapyMH .left-content {
+    top: 15%;
+}
+
+.TherapyMH .TherapyMH-left h1{
+    color: #977ab3;
+    font-size: 1rem;
+    letter-spacing: 8px; 
+}
+
+.TherapyMH .TherapyMH-left p {
+    color: #5a5c82;
+    font-size: 3rem;
+    letter-spacing: 5px;
+}
+
+
+/* RIGHT */
+
+ .TherapyMH-right {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.TherapyMH-right .box {
+    height: auto;
+    width: 350px;
+    background-color:#977ab321;
+    border-radius: 1rem;
+}
+
+
+/* box 1 */
+
+.box1 .box-content h1 {
+    color: #5a5c82;
+    padding: 1rem 0;
+    font-size: 1.2rem;
+}
+
+.box1 .box-content p {
+    color: #5a5c82;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* box 2 */
+
+.box2 .box-content h1 {
+    color: #5a5c82;
+    padding: 1rem 0;
+    font-size: 1.2rem;
+}
+
+.box2 .box-content p {
+    color: #5a5c82;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* box 3 */
+
+.box3 .box-content h1 {
+    color: #5a5c82;
+    padding: 1rem 0;
+    font-size: 1.2rem;
+}
+
+.box3 .box-content p {
+    color: #5a5c82;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* box 4 */
+
+.box4 .box-content h1 {
+    color: #5a5c82;
+    padding: 1rem 0;
+    font-size: 1.2rem;
+}
+
+.box4 .box-content p {
+    color: #5a5c82;
+    text-align: center;
+    padding: 1rem;
+}
+
+.TherapyMH-btn {
+    margin: 3rem 0;
+}
+
+
+@media screen and (max-width:1200px) {
+    .TherapyMH .TherapyMH-left {
+        width: 100%;
+    }
+
+    .TherapyMH .content {
+        flex-wrap: wrap;
+        text-align: center;
+        padding: 3rem 0;
+    }
+
+    .TherapyMH .content p {
+        text-align: center;
+        padding: 0 1rem;
+    }
+
+
+
+    .TherapyMH-right {
+        flex-wrap: wrap;
+    }
+
+}
+
+
+@media screen and (max-width:940px) {
+
+
+    .TherapyMH-right  .box{
+        width: 90vw;
+        flex-wrap: wrap;
+    }
+
+    .TherapyMH .TherapyMH-left h1{
+        font-size: 1.5rem;
+    }
+
+    .TherapyMH .TherapyMH-left p {
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
+
+    .TherapyMH .TherapyMH-left {
+        width: 100%;
+    }
+
+    .TherapyMH .TherapyMH-right {
+        width: 90%;
+    }
+
+    .TherapyMH-btn {
+        padding: 3rem 0 0 0;
+    }
+
+    .box .box-content h1 {
+        padding: 0 0 .5rem 0;
+    }
+
+    .box-icon {
+        font-size: 4rem;
+        color: rgb(139, 85, 4);
+        padding: 0;
+    }
+
+}
+
+

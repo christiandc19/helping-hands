@@ -1,51 +1,38 @@
-import React from 'react'
-import { Link } from 'react-router-dom';
-import Fade from 'react-reveal/Fade';
-import './Hero.css'
-
-// import BgVideo from '../../assets/hero-vbg.mp4'
-
-import waves from '../../assets/waves.svg'
-
-
+import React from "react";
+import Fade from "react-reveal/Fade";
+import "./Hero.css";
 
 const Hero = () => {
-    return (
-<>        
+  return (
+    <>
+      <div className="hero">
+        <div className="hero-container">
+          <div className="content">
+          <Fade left>
+              <h2 className="subtitle">WELCOME TO</h2>
+            </Fade>
+            <Fade right>
+              <h1 className="animate-charcter">HELPING HANDS REHAB</h1>
+            </Fade>
 
+            <Fade left>
+              <h2 className="subtitle">MENTAL HEALTH AND SUBSTANCE ABUSE TREATMENT FACILITY</h2>
+            </Fade>
 
+            <Fade bottom>
+              <p>"Start your treatment journey with us"</p>
+            </Fade>
+          </div>
 
-        <div className='hero'>
-
-        <div className='hero-divider'>
-                <img src={waves} loading="lazy" repeat-x alt='wave divider'/>
-            </div>
-
-
-            <div className="hero-container">
-                <div className="content">
-                        <h1 className="animate-charcter">HELPING HANDS REHAB</h1>
-                    <Fade left>
-                        <h2 className='subtitle'>Substance Abuse Addiction and <br/>Mental Health Treatment Facility</h2>
-                    </Fade>
-                        <br />
-                        <div className='hero-btn'>
-                        <Link to="/contact">
-                        <button>Get an Appointment</button>
-                    </Link>
-                    </div>
-                    <br />
-                    <Fade bottom>
-                        <p>Find your happiness and learn to put it first.</p>
-                    </Fade>
-                </div>
+            <div className="hero-btn">
+                <button class="hero-cta">
+                    CONTACT US
+                </button>
             </div>
         </div>
+      </div>
+    </>
+  );
+};
 
-
-</>
-
-    )
-}
-
-export default Hero
+export default Hero;

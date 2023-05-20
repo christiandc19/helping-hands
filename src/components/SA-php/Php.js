@@ -1,22 +1,16 @@
 import React from 'react'
 import Fade from 'react-reveal/Fade';
 
-import Wave from '../../assets/waves.svg'
-
 import './Php.css'
 
 const PHP = () => {
     return (
         <>
-        <div className='php submenu'>
+        <div className='sa-php submenu'>
 
-            <div className='hero-divider'>
-                <img src={Wave} loading="lazy" repeat-x alt='wave divider'/>
-            </div>
-
-                <div className="php-content">
+                <div className="sa-php-content">
                     <Fade top>
-                    <h2>- SUBSTANCE ABUSE</h2>
+                    <h2>SUBSTANCE ABUSE</h2>
                     <h1>Partial Hospitalization Program</h1>
                     </Fade>
                 </div>

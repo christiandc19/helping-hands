@@ -1,70 +1,131 @@
-import React from 'react'
-import {Link} from 'react-router-dom'
-import { BsFillArrowUpCircleFill } from 'react-icons/bs'
-import logo from '../../assets/nav-logo.png'
+import React from "react";
+import { Link } from "react-router-dom";
+import { BsFillArrowUpCircleFill } from "react-icons/bs";
+import logo from "../../assets/nav-logo.png";
 // import { FiMail, FiFacebook, FiGithub, FiInstagram, FiLinkedin, FiDribbble } from 'react-icons/fi'
-import './FooterStyles.css'
+import "./FooterStyles.css";
 
-import { Link as LinkRoll } from 'react-scroll'
+import { Link as LinkRoll } from "react-scroll";
 
 const Footer = () => {
-    return (
+  return (
+    <>
+      <div className="footer">
+        <div className="container">
+          <div className="top">
+            <div className="logo-footer">
+              <img
+                src={logo}
+                width="170px"
+                height="60px"
+                alt="Palm Springs Rehab Logo"
+                loading="lazy"
+              />
+            </div>
+            <LinkRoll
+              activeClass="active"
+              to="top"
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
+              <BsFillArrowUpCircleFill className="icon" />
+            </LinkRoll>
+          </div>
+          <div className="col-container">
+            <div className="col">
+              <h3>COMPANY</h3>
 
-<>
-        <div className='footer'>
-            <div className="container">
-                <div className="top">
-                    <div className="logo-footer">
-                    <img src={logo} width="100px" height="60px" alt="Helping Hands Rehab Logo" loading="lazy"/>
-                    </div>
-                    <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <BsFillArrowUpCircleFill className='icon' />
-                    </LinkRoll>
+              <LinkRoll
+                activeClass="active"
+                to="top"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
+                <Link to="/mission">
+                  <p>Our Mission</p>
+                </Link>
+              </LinkRoll>
 
-                </div>
-                <div className="col-container">
+              <LinkRoll
+                activeClass="active"
+                to="top"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
+                <Link to="/about-us">
+                  <p>About Us</p>
+                </Link>
+              </LinkRoll>
 
-                    <div className="col">
-                        <h3>My Account</h3>
+              <LinkRoll
+                activeClass="active"
+                to="top"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
+                <Link to="/mental-health">
+                  <p>Programs</p>
+                </Link>
+              </LinkRoll>
+            </div>
 
-                        <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/mission'><p>Our Mission</p></Link>
-                        </LinkRoll>
+            <div className="col">
+              <h3>Navigation</h3>
 
-                        <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/about-us'><p>About Us</p></Link>
-                        </LinkRoll>
+              <LinkRoll
+                activeClass="active"
+                to="top"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
+                <Link to="/">
+                  <p>Home</p>
+                </Link>
+              </LinkRoll>
 
+              <LinkRoll
+                activeClass="active"
+                to="top"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
+                <Link to="/treatment">
+                  <p>Our Method</p>
+                </Link>
+              </LinkRoll>
 
+              <LinkRoll
+                activeClass="active"
+                to="top"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
+                <Link to="/insurance">
+                  <p>Insurance</p>
+                </Link>
+              </LinkRoll>
 
-                        <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/'><p>Programs</p></Link>
-                        </LinkRoll>
-                    </div>
+              <LinkRoll
+                activeClass="active"
+                to="top"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
+                <Link to="/contact">
+                  <p>Contact</p>
+                </Link>
+              </LinkRoll>
+            </div>
 
-
-                    <div className="col">
-                        <h3>Navigation</h3>
-                        
-                        <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/'><p>Home</p></Link>
-                        </LinkRoll>
-
-                        <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/treatment'><p>Treatment</p></Link>
-                        </LinkRoll>
-
-                        <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/insurance'><p>Insurance</p></Link>
-                        </LinkRoll>
-
-                        <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/contact'><p>Contact</p></Link>
-                        </LinkRoll>
-                    </div>
-
-
-                    <div className="col">
+            {/* <div className="col">
                         <h3>SUBSTANCE ABUSE</h3>
                         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
                         <Link to='/substance-abuse-php'><p>Partial Hospitalization Program</p></Link>
@@ -74,32 +135,51 @@ const Footer = () => {
                         <Link to='/substance-abuse-iop'><p>Intensive Outpatient Program</p></Link>
                         </LinkRoll>
 
-                        {/* <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/testimonials'><p>Testimonials</p></Link>
-                        </LinkRoll> */}
-
                         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
                         <Link to='/substance-abuse-op'><p>Outpatient Program</p></Link>
                         </LinkRoll>
-                    </div>
+                    </div> */}
 
+            <div className="col">
+              <h3>MENTAL HEALTH</h3>
+              <LinkRoll
+                activeClass="active"
+                to="top"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
+                <Link to="/mental-health-php">
+                  <p>Partial Hospitalization Program</p>
+                </Link>
+              </LinkRoll>
 
-                    <div className="col">
-                        <h3>MENTAL HEALTH</h3>
-                        <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/mental-health-php'><p>Partial Hospitalization Program</p></Link>
-                        </LinkRoll>
+              <LinkRoll
+                activeClass="active"
+                to="top"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
+                <Link to="/mental-health-iop">
+                  <p>Intensive Outpatient Program</p>
+                </Link>
+              </LinkRoll>
 
-                        <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/mental-health-iop'><p>Intensive Outpatient Program</p></Link>
-                        </LinkRoll>
+              <LinkRoll
+                activeClass="active"
+                to="top"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
+                <Link to="/mental-health-op">
+                  <p>Outpatient Program</p>
+                </Link>
+              </LinkRoll>
+            </div>
 
-                        <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/mental-health-op'><p>Outpatient Program</p></Link>
-                        </LinkRoll>
-                    </div>
-
-                    {/* <form>
+            {/* <form>
                         <h3>Join Our Team</h3>
                         <input type="email" placeholder='Enter your email' />
                         <FiMail className='mail-icon' />
@@ -111,15 +191,17 @@ const Footer = () => {
                             <FiGithub className='social-icon' />
                         </div>
                     </form> */}
-                </div>
-                <p className='copyright'><p>&copy; 2023 HELPING HANDS REHAB TREATMENT CENTER. ALL RIGHTS RESERVED.</p></p>
-
-
-            </div>
-
+          </div>
+          <p className="copyright">
+            <p>
+              &copy; 2023 Helping Hands Rehab Treatment Center. All rights
+              reserved
+            </p>
+          </p>
         </div>
-</>
-    )
-}
+      </div>
+    </>
+  );
+};
 
-export default Footer
+export default Footer;

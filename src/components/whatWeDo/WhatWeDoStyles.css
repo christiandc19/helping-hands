@@ -1,90 +1,65 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
 
-.wrap {
-  display: flex;
-  flex-wrap: wrap ;
-  justify-content: space-evenly;
-  margin: 5rem 0 0 0;
+.wrapper1 {
+    padding: 1rem 0 8rem 0;
+    background: #ffffff;
 }
 
-.box {
-    height: auto;
+.wrapper-content {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+}
+
+.wrapper-content-left {
+    width: 50%;
+    text-align: center;
+}
+
+.wrapper-content-left img {
+    width: 80%;
+}
+
+.wrapper-content-right {
     width: 600px;
-    display: inline-block;
-    margin: 1rem;
+    margin: auto;
+    padding: 0 2rem;
 }
 
-.box-right {
-    width: 500px;
-    text-align: center;
+.wrapper-content-right h2 {
+    font-size: 2rem;
+    color: #5a5c82;
 }
 
-.box-right img {
-    width: 100%;
-    padding: 1rem;
+.wrapper-content-right h1 {
+    text-transform: uppercase;
+    color: #977ab3;
+    font-size: 1rem;
+    letter-spacing: 8px; 
 }
 
-.box-right2 {
-    width: 250px;
-    display: none;
-}
 
-.box-right2 img {
-    width: 100%;
-    padding: 1rem;
-}
-
-.wrap .header {
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.box img {
-    border-radius: 10px;
-}
-
-.wrap p {
-    font-size: 15px;
-    font-family: 'Montserrat', sans-serif;
-    text-align: justify;
-}
-
-.box-btn {
-    text-align: center;
-}
-
-/* MEDIA QUERIES */
-
-@media screen and (max-width:940px) {
-
-
-    .box img {
-        display: none;
+@media screen and (max-width:1250px)  {
+    .wrapper-content-right {
+        width: 100%;
+        padding: 1rem 2rem;
     }
 
-    .wrap p {
-        font-size: 14px;
+    .wrapper-content-right h1, h2, p {
         text-align: center;
     }
 
-    .left {
-        width: 100%;
-    }
-
-    .left h1 {
+    .wrapper-content-right h2 {
         font-size: 2rem;
     }
 
-.left button {
-    margin: 1rem auto;
 }
 
-.box-right {
-    display: none;
-}
-
-.box-right2 {
-    display: block;
-}
-
+@media screen and (max-width:940px) {
+    .wrapper-content-left {
+        width: 100vw;
+    }
+    .wrapper-content-left img {
+        padding: 2rem;
+    }
 }
