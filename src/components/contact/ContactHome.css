@@ -8,7 +8,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color:#977ab321;
+    background-color:#1b1b1b65;
   }
   
   .contact-home:before {
@@ -21,17 +21,17 @@
   }
 
   .contact-home .contact-home-content  {
-    top: 15%;
+    top: 10%;
     position: absolute;
     right: 5%;
-    width: 50%;
+    width: 55%;
     padding: 2rem;
   }
 
 .contact-home .contact-home-content h1 {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
-    color: var(--primary-text);
+    color: rgb(240, 235, 235);
     padding: 2rem;
     font-size: 3rem;
 }
@@ -40,7 +40,7 @@
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     font-size: 20px;
-    color: var(--primary-text);
+    color: rgb(240, 235, 235);
     padding: 1rem;
 }
 
@@ -49,11 +49,11 @@
     text-align: center;
     padding: 2rem;
     font-family: 'Kaushan Script', cursive;
-    color: var(--primary-text);
+    color: rgb(240, 235, 235);
 }
 
 
-@media screen and (max-width:940px) {
+@media screen and (max-width:1200px) {
 
     .contact-home .contact-home-content {
         top: 15%;
@@ -66,3 +66,7 @@
     }
 
     }
+
+
+
+  

@@ -5,7 +5,9 @@ const ContactHome = () => {
   return (
     <>
       <div className="contact-home">
-        <div className="contact-home-content container">
+
+        <div className="contact-home-content">
+          <div className="contact-caption">
           <h1>Want to Make An Appointment or Have a Questions?</h1>
           <p>
             Our Addiction and Recovery Support team is available 24 hours a day
@@ -25,6 +27,7 @@ const ContactHome = () => {
 
           <h2>"The road to recovery starts on Helping Hands Rehab"</h2>
         </div>
+      </div>
       </div>
     </>
   );
