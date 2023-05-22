@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/helping-hands/static/css/main.21c7a66f.css",
-    "main.js": "/helping-hands/static/js/main.15097185.js",
+    "main.css": "/helping-hands/static/css/main.ba6f13f1.css",
+    "main.js": "/helping-hands/static/js/main.cd7b4745.js",
     "static/media/method-bg.jpg": "/helping-hands/static/media/method-bg.c9ce2b55956806b117d4.jpg",
     "static/media/activities-min.png": "/helping-hands/static/media/activities-min.6296b11206d33e19d904.png",
     "static/media/hero-bg-1.jpg": "/helping-hands/static/media/hero-bg-1.0c93d4ffcbaadc387b6f.jpg",
@@ -44,11 +44,11 @@
     "static/media/aetna.png": "/helping-hands/static/media/aetna.6dd387382e5c040dbe55.png",
     "index.html": "/helping-hands/index.html",
     "static/media/waves.svg": "/helping-hands/static/media/waves.e42ddec972c9ec214abc0ac6e8439ee4.svg",
-    "main.21c7a66f.css.map": "/helping-hands/static/css/main.21c7a66f.css.map",
-    "main.15097185.js.map": "/helping-hands/static/js/main.15097185.js.map"
+    "main.ba6f13f1.css.map": "/helping-hands/static/css/main.ba6f13f1.css.map",
+    "main.cd7b4745.js.map": "/helping-hands/static/js/main.cd7b4745.js.map"
   },
   "entrypoints": [
-    "static/css/main.21c7a66f.css",
-    "static/js/main.15097185.js"
+    "static/css/main.ba6f13f1.css",
+    "static/js/main.cd7b4745.js"
   ]
 }
