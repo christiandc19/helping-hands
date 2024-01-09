@@ -57,8 +57,8 @@ const Footer = () => {
 
               <div>
                 <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-                  <Link to="/jobs">
-                    <p>Job Assistance</p>
+                  <Link to="/insurance">
+                    <p>Insurance</p>
                   </Link>
                 </LinkRoll>
               </div>
@@ -78,40 +78,6 @@ const Footer = () => {
 
 
 
-            <div className="col">
-              <h3>DETOX PROGRAMS</h3>
-
-{/* DETOX */}
-              <div className="hide">
-                <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-                  <Link to="/detox-programs">
-                    <p>Detox Programs</p>
-                  </Link>
-                </LinkRoll>
-              </div>
-
-{/* RESIDENTIAL */}
-
-              <div>
-                <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-                  <Link to="/residential-programs">
-                    <p>Residential Program</p>
-                  </Link>
-                </LinkRoll>
-              </div>
-
-{/* PHP */}
-
-            <div>
-                <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-                  <Link to="/detox-partial-hospitalization-program">
-                    <p>Partial Hospitalization</p>
-                  </Link>
-                </LinkRoll>
-              </div>
-
-            </div>
-
 
 
 
@@ -119,13 +85,13 @@ const Footer = () => {
 
 
             <div className="col">
-              <h3>SUBSTANCE ADDICTION</h3>
+              <h3>PROGRAMS</h3>
 
 {/* PHP */}
               <div>
                 <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-                  <Link to="/partial-hospitalization-program">
-                    <p>Partial Hospitalization Program</p>
+                  <Link to="/mental-health">
+                    <p>Mental Health Programs</p>
                   </Link>
                 </LinkRoll>
               </div>
@@ -133,21 +99,14 @@ const Footer = () => {
 
               <div>
                 <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-                  <Link to="/intensive-outpatient-program">
-                    <p>Intensive Outpatient program</p>
+                  <Link to="/substance-abuse">
+                    <p>Substance Abuse Programs</p>
                   </Link>
                 </LinkRoll>
               </div>
 
 {/* OP */}
 
-              <div>
-                <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-                  <Link to="/outpatient-program">
-                    <p>Outpatient Program</p>
-                  </Link>
-                </LinkRoll>
-              </div>
 
             </div>
 
@@ -160,15 +119,15 @@ const Footer = () => {
             <div className="col">
               <h3>CONTACT</h3>
               <div>
-                  <h2><span><MdPhoneCallback /></span> <a href="tel:1234567890">(123) 456-7890</a></h2>
+                  <h2><span><MdPhoneCallback /></span> <a href="tel:1234567890">(323) 792-0515</a></h2>
               </div>
 
               <div>
-                  <h2><span><MdAlternateEmail  /><a href = "mailto: abc@example.com">info@email.com</a></span></h2>
+                  <h2><span><MdAlternateEmail  /><a href = "mailto: info@hhrci.biz">info@hhrci.biz </a></span></h2>
               </div>
 
               <div>
-                  <h2><span><FiMapPin  /></span> Los Angeles California</h2>
+                  <h2><span><FiMapPin  /></span> Los Angeles, California</h2>
               </div>
             </div>
           </div>
@@ -182,7 +141,7 @@ const Footer = () => {
 
           <p className="copyright">
             <p>
-              &copy; 2023 FullContinuumOfCareLA All rights
+              &copy; 2023 Helping Hands Rehab All rights
               reserved
             </p>
           </p>
