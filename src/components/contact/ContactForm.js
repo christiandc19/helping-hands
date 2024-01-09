@@ -55,7 +55,7 @@ feedbackEl.setAttribute("class", "feedback hidden");
 
                         <div className="get_form_inner2 card2 gradient-border">
                                 <h2>EMAIL</h2>
-                                <p><AiOutlineMail /> Info@helpinghands.biz  </p><br />
+                                <p><AiOutlineMail /> info@hhrci.biz  </p><br />
                         </div>
 
                         <div className="get_form_inner2 card3 gradient-border">

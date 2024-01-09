@@ -1,48 +1,56 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
 
 
-.Ptsd {
+.ptsd {
     width: 100%;
     height: 80vh;
-    background: rgba(42, 14, 73, 0.486);
+    background: rgba(0, 0, 0, 0.486);
     position: relative;
   }
   
-  .Ptsd:before {
+  .ptsd:before {
     content: '';
     position: absolute;
-    background: url('../../assets/addiction-submenu-bg-min.jpg') no-repeat center center/cover;
-    height: 80vh;
+    background: url('../../assets/depressed_man.webp') no-repeat center center/cover;
+    height: 100%;
     width: 100%;
     z-index: -1;
   }
   
 
-.Ptsd {
+.ptsd {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.Ptsd .Ptsd-content {
+.ptsd .ptsd-content {
     display: block;
     position: absolute;
-    top: 30%;
+    bottom: 20%;
+    left: 10%;
     padding: 1rem;
 }
 
-.Ptsd h1 {
-    font-size: 4rem;
+.ptsd h1 {
+    font-size: 3rem;
     font-family: 'Montserrat', sans-serif;
     color: white;
 }
+
 
 /* MEDIA QUERIES */
 
 @media screen and (max-width:940px) {
 
-.Ptsd h1 {
+.ptsd h1 {
     font-size: 2rem;
+}
+
+.ptsd .ptsd-content {
+    left: 0%;
+    width: 100%;
+    text-align: center;
 }
 
 }
