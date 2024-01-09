@@ -26,12 +26,12 @@
 .sa .sa-content {
     display: block;
     position: absolute;
-    top: 40%;
+    bottom: 20%;
     padding: 1rem;
 }
 
 .sa h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     font-family: 'Montserrat', sans-serif;
     color: white;
     text-align: center;

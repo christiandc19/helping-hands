@@ -9,21 +9,6 @@
     gap: 1rem;
 }
 
-.card-name {
-    color: black;
-    font-weight: bold;
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-    margin: 1rem;
-}
-
-.card-description {
-    color: black;
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-    margin: 1rem;
-    font-size: smaller;
-}
 
 .insurance-logos {
     position: absolute;
@@ -44,10 +29,6 @@
     width: 80%;
 }
 
-.card-button {
-    border-radius: 10px;
-    margin-left: 27%;
-}
 
 @media screen and (max-width:940px) {
     .about .content {

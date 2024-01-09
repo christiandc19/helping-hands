@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 :root {
-  --primary-color: rgb(9, 147, 189);
-  --primary-dark: #0d2154;
-  --secondary-color: #46a828;
+  --primary-color: rgb(197, 136, 24);
+  --secondary-color:rgb(60, 178, 214);
   --primary-text: #33302E;
 }
 
@@ -67,24 +66,7 @@ h2 {
   position: relative;
 }
 
-/* button {
-  font-family: 'Roboto', sans-serif;
-  padding: .7rem 3rem;
-  margin: 1rem 0;
-  background-color: var(--primary-color);
-  border: 1px solid var(--primary-color);
-  color: #f8f8f8;
-  font-size: 1rem;
-  font-weight: 500;
-  border-radius: 20px;
-  cursor:pointer;
 
-} */
-
-/* button:hover {
-  background-color: #d18e10;
-  border: 1px solid #d18e10;
-} */
 
 span {
   color: var(--primary-color);
@@ -107,27 +89,6 @@ padding: 7px 0 0px 0;
 margin: 0px 5px;
 }
 
-
-/* SUBMENU SECTION */
-
-/* .wrap {
-    display: flex;
-    flex-wrap: wrap ;
-    justify-content: center;
-  }
-  
-  .box {
-      height: auto;
-      margin: 1rem;
-  }
-  
-  .wrap .header {
-      text-align: left;
-  }
-  
-  .box img {
-      border-radius: 10px;
-  } */
   
   p {
       font-size: 15px;
@@ -182,7 +143,6 @@ margin: 0px 5px;
 .main-menu .content {
   position: absolute;
   top: 30%;
-  /* padding: 0 10rem; */
   width: 100%;
 }
 

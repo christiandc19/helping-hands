@@ -10,13 +10,8 @@ const ContactForm = () => {
     e.preventDefault();
 
     //    Service Id        Template Id                 Public Key (Account Tab)
-    emailjs
-      .sendForm(
-        "service_9v2gipl",
-        "template_rxc8sbg",
-        form.current,
-        "Rj5e7bWJla-kOEL0H"
-      )
+    emailjs.sendForm('service_hsunksm', 'template_rxc8sbg', form.current, 'Rj5e7bWJla-kOEL0H')
+
       .then(
         (result) => {
           console.log(result.text);
@@ -35,8 +30,7 @@ const ContactForm = () => {
         <div className="contact2-header contact2-container">
           <h1>DO YOU NEED URGENT HELP?</h1>
           <p>
-            Our Mental Health Support team is available 24 hours a day 7 Days a
-            week.
+            Our Mental Health Support team is available to assist you.
           </p>
         </div>
 
@@ -107,6 +101,11 @@ const ContactForm = () => {
                   ></textarea>
                 </div>
                 <input className="contact-btn" type="submit" value="Submit" />
+
+                <div className="textarea2 feedback hidden">
+                    <textarea name="message2" cols="30" rows="3" required>Message Sent to Helping Hands!</textarea>
+                </div>
+
               </form>
             </div>
           </div>

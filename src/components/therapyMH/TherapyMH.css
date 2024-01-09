@@ -7,9 +7,7 @@
     height: auto;
     position: relative;
     justify-content: center;
-    background: #ffffff;
-    padding: 5rem 0 0 0;
-
+    background: #181818;
 }
   
   .TherapyMH:before {
@@ -27,121 +25,79 @@
     text-align: center;
 }
 
-.box-icon {
-    font-size: 6rem;
-    color: #977ab3;
-}
 
-.box-content {
-    width: 100%;
-    padding: 1rem;
-}
+/* HEADER */
 
-/* LEFT */
-
-.TherapyMH .TherapyMH-left {
+.TherapyMH .TherapyMH-header {
     width: 100%;
     text-align: center;
 }
 
-.TherapyMH .left-content {
-    top: 15%;
-}
 
-.TherapyMH .TherapyMH-left h1{
-    color: #977ab3;
+.TherapyMH .TherapyMH-header h1 {
+    color: var(--primary-color);
     font-size: 1rem;
     letter-spacing: 8px; 
 }
 
-.TherapyMH .TherapyMH-left p {
-    color: #5a5c82;
-    font-size: 3rem;
+.TherapyMH .TherapyMH-header p {
+    color: rgba(255, 255, 255, 0.808);
+    font-size: 2rem;
     letter-spacing: 5px;
 }
 
 
-/* RIGHT */
 
- .TherapyMH-right {
+
+/* FLEX */
+
+ .TherapyMH-flex {
     width: 100%;
     margin: auto;
     display: flex;
     justify-content: center;
     gap: 1rem;
+    padding: 0 .5rem;
 }
 
-.TherapyMH-right .box {
+.TherapyMH-flex .mh-box {
     height: auto;
     width: 350px;
-    background-color:#977ab321;
     border-radius: 1rem;
 }
 
-
-/* box 1 */
-
-.box1 .box-content h1 {
-    color: #5a5c82;
-    padding: 1rem 0;
-    font-size: 1.2rem;
+.mh-box {
+    width: 200px;
 }
 
-.box1 .box-content p {
-    color: #5a5c82;
-    text-align: center;
-    padding: 1rem;
+.mh-box img {
+    width: 100%;
+    border-radius: 5px;
 }
 
-/* box 2 */
+.mh-box h1 {
+    font-size: 1rem;
+    padding: .5rem;
+    color: rgba(255, 255, 255, 0.808);
 
-.box2 .box-content h1 {
-    color: #5a5c82;
-    padding: 1rem 0;
-    font-size: 1.2rem;
 }
 
-.box2 .box-content p {
-    color: #5a5c82;
-    text-align: center;
-    padding: 1rem;
-}
-
-/* box 3 */
-
-.box3 .box-content h1 {
-    color: #5a5c82;
-    padding: 1rem 0;
-    font-size: 1.2rem;
-}
-
-.box3 .box-content p {
-    color: #5a5c82;
-    text-align: center;
-    padding: 1rem;
-}
-
-/* box 4 */
-
-.box4 .box-content h1 {
-    color: #5a5c82;
-    padding: 1rem 0;
-    font-size: 1.2rem;
-}
-
-.box4 .box-content p {
-    color: #5a5c82;
-    text-align: center;
-    padding: 1rem;
-}
-
-.TherapyMH-btn {
+.TherapyMH-btn button {
     margin: 3rem 0;
+    background-color: var(--primary-color);
+    color: white;
+    cursor: pointer;
+    padding: .8rem 2rem;
+    border: none;
+    border-radius: 5px;
 }
 
 
-@media screen and (max-width:1200px) {
-    .TherapyMH .TherapyMH-left {
+
+@media screen and (max-width:940px) {
+
+
+    .TherapyMH .TherapyMH-header {
         width: 100%;
     }
 
@@ -151,42 +107,29 @@
         padding: 3rem 0;
     }
 
-    .TherapyMH .content p {
-        text-align: center;
-        padding: 0 1rem;
-    }
-
-
-
-    .TherapyMH-right {
+    .TherapyMH-flex {
         flex-wrap: wrap;
     }
 
-}
-
-
-@media screen and (max-width:940px) {
-
-
-    .TherapyMH-right  .box{
-        width: 90vw;
+    .TherapyMH-flex .box{
+        width: 100vw;
         flex-wrap: wrap;
     }
 
-    .TherapyMH .TherapyMH-left h1{
-        font-size: 1.5rem;
+    .TherapyMH .TherapyMH-header h1{
+        font-size: 1rem;
     }
 
-    .TherapyMH .TherapyMH-left p {
+    .TherapyMH .TherapyMH-header p {
         font-size: 1.5rem;
         padding: 1rem;
     }
 
-    .TherapyMH .TherapyMH-left {
+    .TherapyMH .TherapyMH-header {
         width: 100%;
     }
 
-    .TherapyMH .TherapyMH-right {
+    .TherapyMH .TherapyMH-flex {
         width: 90%;
     }
 
@@ -194,16 +137,9 @@
         padding: 3rem 0 0 0;
     }
 
-    .box .box-content h1 {
-        padding: 0 0 .5rem 0;
-    }
-
-    .box-icon {
-        font-size: 4rem;
-        color: rgb(139, 85, 4);
-        padding: 0;
-    }
-
 }
 
+@media screen and (max-width:600px) {
+
+}
 

@@ -3,8 +3,8 @@ import React from 'react'
 import Navbar from '../components/navbar/Navbar'
 import Footer from '../components/footer/Footer'
 import MH from '../components/MH/MH'
-import MHSection from '../components/MH/MHSection'
-
+import Contact2 from '../components/contact/Contact2'
+import Menus from '../components/menus/Menus';
 
 
 const MHealth = () => {
@@ -12,7 +12,8 @@ const MHealth = () => {
     <>
     <Navbar /> 
     <MH />
-    <MHSection />
+    <Menus />
+    <Contact2 />
     <Footer />
      </>
   )

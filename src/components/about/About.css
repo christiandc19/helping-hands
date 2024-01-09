@@ -9,7 +9,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background: #783a0425;
+    background: #00000067;
   }
   
   .about:before {
@@ -24,7 +24,7 @@
 .about .about-content {
     display: block;
     position: absolute;
-    top: 40%;
+    bottom: 20%;
     padding: 1rem;
 }
 

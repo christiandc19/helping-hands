@@ -9,7 +9,7 @@
   .mh:before {
     content: '';
     position: absolute;
-    background: url('../../assets/mh-mainmenu-bg-min.jpg') no-repeat center top/cover;
+    background: url('../../assets/mh-mainmenu-bg-min.jpg') no-repeat center center/cover;
     height: 90vh;
     width: 100%;
     z-index: -1;
@@ -25,14 +25,14 @@
 .mh .mh-content {
     display: block;
     position: absolute;
-    top: 40%;
+    bottom: 20%;
     padding: 1rem;
 }
 
 
 .mh h1 {
     color: white;
-    font-size: 4rem;
+    font-size: 3rem;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
 }

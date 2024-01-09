@@ -1,11 +1,12 @@
 import React from "react";
 import "./WhatWeDoStyles.css";
 
-import wrapper1 from "../../assets/wrapper1-min.jpg";
+import wrapper1 from "../../assets/Helping_Hands_Hiking.webp";
 
 const WhatWeDo = () => {
   return (
     <>
+    <div className='sectionbg'>
       <div className="wrapper1 ">
         <div className="wrapper-content container">
           <div className="wrapper-content-left">
@@ -14,7 +15,7 @@ const WhatWeDo = () => {
 
           <div className="wrapper-content-right">
             <h1>What We Do</h1> <br />
-            <h2>We always care about your mental health</h2> <br />
+            <h2>We care about your mental health</h2> <br />
             <p>
               At Helping Hands Rehab Treatment Center, we offer different levels
               of care based on each individual’s needs. Our programs consist of
@@ -38,6 +39,7 @@ const WhatWeDo = () => {
             </p>
           </div>
         </div>
+      </div>
       </div>
     </>
   );

@@ -1,15 +1,47 @@
+
 .contactform {
-  background: #F0EFE3;
-  padding: 3rem 0;
+  width: 100%;
+  height: auto;
+  position: relative;
+  background: rgba(29, 28, 29, 0);
+  padding: 5rem 0;
+
+}
+
+.contactform:before {
+  content: '';
+  position: absolute;
+  background: url('../../assets/section-bg.webp') no-repeat center center/cover;
+  height: 100%;
+  width: 100%;
+  opacity: .03;
 }
 
 
+
+  .contact-form-flex {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .contact-form-left {
+    width: 100%;
+    margin: auto;
+  }
+
+  .contact-form-right {
+    width: 100%;
+    margin: auto;
+  }
+
+
+
   .get_form_inner {
-    display: block;
-    padding: 3rem 3rem ;
-    background: #F0EFE3;
+    padding: 2rem;
+    background: #ffffff;
     box-shadow: -4px -2px 20px -7px #cfd5df;
-    margin: 2rem 5rem 2rem 5rem;
+    border-radius: 1rem;
   }
 
 input {
@@ -40,13 +72,14 @@ input {
   }
 
   .get_form_inner_text h3 {
-    color: #333;
+    color: #161515;
     font-size: 26px;
     font-weight: 600;
   }
 
   .get_form_inner_text p {
     text-align: left;
+    color: #141313;
   }
 
   input[type="submit"] {
@@ -92,6 +125,27 @@ input {
     margin: 1rem 1rem 3rem 1rem;
   }
 
+  .contact-form-left .card1 {
+    background-repeat: no-repeat;
+    background-size: 4px 50%, 50% 4px, 4px 50%, 50% 4px, calc(100% - 8px) calc(100% - 8px);
+    background-position: left bottom, left bottom, right top, right top, 4px 4px;
+    height: auto;
+  }
+
+  .card2 {
+    background-repeat: no-repeat;
+    background-size: 4px 50%, 50% 4px, 4px 50%, 50% 4px, calc(100% - 8px) calc(100% - 8px);
+    background-position: left bottom, left bottom, right top, right top, 4px 4px;
+    height: auto;
+  }
+
+  .card3 {
+    background-repeat: no-repeat;
+    background-size: 4px 50%, 50% 4px, 4px 50%, 50% 4px, calc(100% - 8px) calc(100% - 8px);
+    background-position: left bottom, left bottom, right top, right top, 4px 4px;
+    height: auto;
+  }
+
   .get_form_inner2  h2 {
     color: var(--primary-color);
     text-align: center;
@@ -103,14 +157,25 @@ input {
     margin: 1rem auto;
     }
 
-    iframe {
-      width: 100%;
-      border-radius: 1rem;
-      border: none;
-      box-shadow: 10px 5px 5px rgb(129, 129, 129);
 
-    }
 
+.textarea2 textarea {
+  border: none;
+  color: rgb(53, 82, 42);
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+  margin-bottom: 2rem;
+  color: white;
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  z-index: 2;
+}
+
+  
   
 
   @media screen and (max-width: 940px) {
@@ -118,8 +183,14 @@ input {
         margin: 2rem 1rem 2rem 1rem;
       }
 
-      iframe {
-        display: none;
+      .contact-form-flex {
+        flex-wrap: wrap-reverse;
       }
+
+      .contact-form-left {
+        width: 100%;
+        margin: auto;
+      }
+
     }
   

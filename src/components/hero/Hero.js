@@ -1,36 +1,40 @@
 import React from "react";
-import Fade from "react-reveal/Fade";
+import Zoom from 'react-reveal/Zoom';
+
 import "./Hero.css";
 
 const Hero = () => {
   return (
     <>
-      <div className="hero">
-        <div className="hero-container">
-          <div className="content">
-          <Fade left>
-              <h2 className="subtitle">WELCOME TO</h2>
-            </Fade>
-            <Fade right>
-              <h1 className="animate-charcter">HELPING HANDS REHAB</h1>
-            </Fade>
+<figure>
 
-            <Fade left>
-              <h2 className="subtitle">MENTAL HEALTH AND SUBSTANCE ABUSE TREATMENT FACILITY</h2>
-            </Fade>
+	<div class="imagesContainer">
 
-            <Fade bottom>
-              <p>"Start your treatment journey with us"</p>
-            </Fade>
-          </div>
+  <div className="hero-caption">
 
-            <div className="hero-btn">
-                <button class="hero-cta">
-                    CONTACT US
-                </button>
-            </div>
-        </div>
-      </div>
+    <Zoom duration={2000}>
+      <h1>HELPING <span>HANDS</span> REHAB </h1>
+    </Zoom>
+    <Zoom duration={4000}>
+    <h2>Substance Abuse and Mental Health Treatment Center</h2>
+    </Zoom>
+
+    <Zoom duration={6000}>
+
+    <p>
+              {/* <AiOutlinePhone /> */}
+              <a href="tel:3237920515"> +1 (323) 792-0515</a>
+            </p>
+  </Zoom>
+
+  </div>
+
+
+		<div class="imageDiv image1">
+    </div>
+		<div class="imageDiv image2 fadeInClass"></div>
+	</div>
+</figure>
     </>
   );
 };
